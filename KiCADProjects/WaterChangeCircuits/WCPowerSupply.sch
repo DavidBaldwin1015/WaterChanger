@@ -1,0 +1,135 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Barrel_Jack J54
+U 1 1 60F2C733
+P 1700 1300
+F 0 "J54" H 1757 1625 50  0000 C CNN
+F 1 "Barrel_Jack" H 1757 1534 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 1750 1260 50  0001 C CNN
+F 3 "~" H 1750 1260 50  0001 C CNN
+	1    1700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0152
+U 1 1 60F2CBF4
+P 2000 1200
+F 0 "#PWR0152" H 2000 1050 50  0001 C CNN
+F 1 "+12V" V 2015 1328 50  0000 L CNN
+F 2 "" H 2000 1200 50  0001 C CNN
+F 3 "" H 2000 1200 50  0001 C CNN
+	1    2000 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND1 #PWR0153
+U 1 1 60F2CE88
+P 2000 1400
+F 0 "#PWR0153" H 2000 1150 50  0001 C CNN
+F 1 "GND1" H 2005 1227 50  0000 C CNN
+F 2 "" H 2000 1400 50  0001 C CNN
+F 3 "" H 2000 1400 50  0001 C CNN
+	1    2000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J55
+U 1 1 60F2DCF3
+P 1800 2500
+F 0 "J55" H 1850 2717 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 1850 2626 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 1800 2500 50  0001 C CNN
+F 3 "~" H 1800 2500 50  0001 C CNN
+	1    1800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0150
+U 1 1 60F2EEF2
+P 1600 2500
+F 0 "#PWR0150" H 1600 2350 50  0001 C CNN
+F 1 "+5V" H 1615 2673 50  0000 C CNN
+F 2 "" H 1600 2500 50  0001 C CNN
+F 3 "" H 1600 2500 50  0001 C CNN
+	1    1600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR0151
+U 1 1 60F2F2C9
+P 1600 2600
+F 0 "#PWR0151" H 1600 2350 50  0001 C CNN
+F 1 "GND2" H 1605 2427 50  0000 C CNN
+F 2 "" H 1600 2600 50  0001 C CNN
+F 3 "" H 1600 2600 50  0001 C CNN
+	1    1600 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2500 2100 2500
+Connection ~ 1600 2500
+Wire Wire Line
+	1600 2600 2100 2600
+Connection ~ 1600 2600
+$Comp
+L power:+5V #PWR0154
+U 1 1 60F2F8BF
+P 2100 2500
+F 0 "#PWR0154" H 2100 2350 50  0001 C CNN
+F 1 "+5V" H 2115 2673 50  0000 C CNN
+F 2 "" H 2100 2500 50  0001 C CNN
+F 3 "" H 2100 2500 50  0001 C CNN
+	1    2100 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 2100 2500
+$Comp
+L power:GND2 #PWR0155
+U 1 1 60F2FC4F
+P 2100 2600
+F 0 "#PWR0155" H 2100 2350 50  0001 C CNN
+F 1 "GND2" H 2105 2427 50  0000 C CNN
+F 2 "" H 2100 2600 50  0001 C CNN
+F 3 "" H 2100 2600 50  0001 C CNN
+	1    2100 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2100 2600
+$Comp
+L Connector_Generic:Conn_01x02 J56
+U 1 1 60F35BFC
+P 2900 1250
+F 0 "J56" H 2980 1242 50  0000 L CNN
+F 1 "Conn_01x02" H 2980 1151 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 2900 1250 50  0001 C CNN
+F 3 "~" H 2900 1250 50  0001 C CNN
+	1    2900 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 1200 2000 1200
+Wire Wire Line
+	2700 1200 2700 1250
+Connection ~ 2000 1200
+Wire Wire Line
+	2000 1200 2700 1200
+Wire Wire Line
+	2000 1400 2700 1400
+Wire Wire Line
+	2700 1400 2700 1350
+Connection ~ 2000 1400
+$EndSCHEMATC
