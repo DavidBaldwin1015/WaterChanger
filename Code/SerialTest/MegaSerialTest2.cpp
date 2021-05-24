@@ -2,9 +2,10 @@
 
 #include <avr/io.h> // Call in the AVR/IO library
 #include <avr/delay.h> //Call in the AVR/delay library
+#include <Arduino.h> //Call in the Arduino library
 
 int incomingByte = 0;
-byte incoming[3];
+int incoming[3];
 
 int command = 0;
 
@@ -21,9 +22,7 @@ void loop() {
     // Serial.println(First); Debugging for serial communication
     if(First >= '0' && First <= '9'){
         command = (command*10)+(First-48);
-      } /* code for debugging the serial communication
-      
-      else if(First == 10){ 
+      } else if(First == 10){ //code for debugging the serial communication
 
         Serial.print("Command received: ");
         Serial.println(command);      
@@ -31,13 +30,13 @@ void loop() {
 
     Serial.print("Command received: ");
     Serial.println(command);
-   */
+  
     }
 
     switch(command){
       case 108:
         PORTH = 0x20;
-        // Serial.println("recognized"); For debugging, making sure the command is recognized
+        Serial.println("recognized"); //For debugging, making sure the command is recognized
         command = 0;
         break;
       case 112:
