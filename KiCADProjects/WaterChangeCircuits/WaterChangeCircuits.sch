@@ -46,15 +46,15 @@ F 3 "~" H 1300 3200 50  0001 C CNN
 	1    1300 3200
 	-1   0    0    1   
 $EndComp
-Text GLabel 1500 2000 2    50   Output ~ 0
+Text GLabel 1500 2000 2    50   Input ~ 0
 D13
-Text GLabel 1500 2100 2    50   Output ~ 0
+Text GLabel 1500 2100 2    50   Input ~ 0
 D12
-Text GLabel 1500 2200 2    50   Output ~ 0
+Text GLabel 1500 2200 2    50   Input ~ 0
 D11
-Text GLabel 1500 2300 2    50   Output ~ 0
+Text GLabel 1500 2300 2    50   Input ~ 0
 D10
-Text GLabel 1500 2400 2    50   Output ~ 0
+Text GLabel 1500 2400 2    50   Input ~ 0
 D09
 Text GLabel 1500 2500 2    50   Input ~ 0
 D08
@@ -70,13 +70,13 @@ Text GLabel 1500 3000 2    50   Output ~ 0
 D03
 Text GLabel 1500 3100 2    50   Output ~ 0
 D02
-Text GLabel 1500 3200 2    50   Output ~ 0
+Text GLabel 1500 3200 2    50   Input ~ 0
 D14
-Text GLabel 1500 3300 2    50   Output ~ 0
+Text GLabel 1500 3300 2    50   Input ~ 0
 D15
-Text GLabel 1500 3400 2    50   Output ~ 0
+Text GLabel 1500 3400 2    50   Input ~ 0
 D16
-Text GLabel 1500 3500 2    50   Output ~ 0
+Text GLabel 1500 3500 2    50   Input ~ 0
 D17
 Text GLabel 1500 3600 2    50   Output ~ 0
 D18
@@ -269,270 +269,6 @@ F 1 "GND2" H 2305 3277 50  0000 C CNN
 F 2 "" H 2300 3450 50  0001 C CNN
 F 3 "" H 2300 3450 50  0001 C CNN
 	1    2300 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay_SolidState:TLP3542 U6
-U 1 1 60A5E28D
-P 2600 3850
-F 0 "U6" H 2600 4175 50  0000 C CNN
-F 1 "TLP3542" H 2600 4084 50  0000 C CNN
-F 2 "Package_DIP:DIP-5-6_W7.62mm" H 2600 3550 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&prodName=TLP3542" H 2600 3850 50  0001 C CNN
-	1    2600 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR019
-U 1 1 60A5E293
-P 2900 3750
-F 0 "#PWR019" H 2900 3600 50  0001 C CNN
-F 1 "+12V" H 2915 3923 50  0000 C CNN
-F 2 "" H 2900 3750 50  0001 C CNN
-F 3 "" H 2900 3750 50  0001 C CNN
-	1    2900 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND2 #PWR06
-U 1 1 60A5E299
-P 2300 3950
-F 0 "#PWR06" H 2300 3700 50  0001 C CNN
-F 1 "GND2" H 2305 3777 50  0000 C CNN
-F 2 "" H 2300 3950 50  0001 C CNN
-F 3 "" H 2300 3950 50  0001 C CNN
-	1    2300 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay_SolidState:TLP3542 U7
-U 1 1 60A5E653
-P 2600 4350
-F 0 "U7" H 2600 4675 50  0000 C CNN
-F 1 "TLP3542" H 2600 4584 50  0000 C CNN
-F 2 "Package_DIP:DIP-5-6_W7.62mm" H 2600 4050 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&prodName=TLP3542" H 2600 4350 50  0001 C CNN
-	1    2600 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR020
-U 1 1 60A5E659
-P 2900 4250
-F 0 "#PWR020" H 2900 4100 50  0001 C CNN
-F 1 "+12V" H 2915 4423 50  0000 C CNN
-F 2 "" H 2900 4250 50  0001 C CNN
-F 3 "" H 2900 4250 50  0001 C CNN
-	1    2900 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND2 #PWR07
-U 1 1 60A5E65F
-P 2300 4450
-F 0 "#PWR07" H 2300 4200 50  0001 C CNN
-F 1 "GND2" H 2305 4277 50  0000 C CNN
-F 2 "" H 2300 4450 50  0001 C CNN
-F 3 "" H 2300 4450 50  0001 C CNN
-	1    2300 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay_SolidState:TLP3542 U8
-U 1 1 60A60589
-P 2600 4850
-F 0 "U8" H 2600 5175 50  0000 C CNN
-F 1 "TLP3542" H 2600 5084 50  0000 C CNN
-F 2 "Package_DIP:DIP-5-6_W7.62mm" H 2600 4550 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&prodName=TLP3542" H 2600 4850 50  0001 C CNN
-	1    2600 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR021
-U 1 1 60A6058F
-P 2900 4750
-F 0 "#PWR021" H 2900 4600 50  0001 C CNN
-F 1 "+12V" H 2915 4923 50  0000 C CNN
-F 2 "" H 2900 4750 50  0001 C CNN
-F 3 "" H 2900 4750 50  0001 C CNN
-	1    2900 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND2 #PWR08
-U 1 1 60A60595
-P 2300 4950
-F 0 "#PWR08" H 2300 4700 50  0001 C CNN
-F 1 "GND2" H 2305 4777 50  0000 C CNN
-F 2 "" H 2300 4950 50  0001 C CNN
-F 3 "" H 2300 4950 50  0001 C CNN
-	1    2300 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay_SolidState:TLP3542 U9
-U 1 1 60A60C1C
-P 2600 5350
-F 0 "U9" H 2600 5675 50  0000 C CNN
-F 1 "TLP3542" H 2600 5584 50  0000 C CNN
-F 2 "Package_DIP:DIP-5-6_W7.62mm" H 2600 5050 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&prodName=TLP3542" H 2600 5350 50  0001 C CNN
-	1    2600 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR022
-U 1 1 60A60C22
-P 2900 5250
-F 0 "#PWR022" H 2900 5100 50  0001 C CNN
-F 1 "+12V" H 2915 5423 50  0000 C CNN
-F 2 "" H 2900 5250 50  0001 C CNN
-F 3 "" H 2900 5250 50  0001 C CNN
-	1    2900 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND2 #PWR09
-U 1 1 60A60C28
-P 2300 5450
-F 0 "#PWR09" H 2300 5200 50  0001 C CNN
-F 1 "GND2" H 2305 5277 50  0000 C CNN
-F 2 "" H 2300 5450 50  0001 C CNN
-F 3 "" H 2300 5450 50  0001 C CNN
-	1    2300 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay_SolidState:TLP3542 U10
-U 1 1 60A60FAA
-P 2600 5850
-F 0 "U10" H 2600 6175 50  0000 C CNN
-F 1 "TLP3542" H 2600 6084 50  0000 C CNN
-F 2 "Package_DIP:DIP-5-6_W7.62mm" H 2600 5550 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&prodName=TLP3542" H 2600 5850 50  0001 C CNN
-	1    2600 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR023
-U 1 1 60A60FB0
-P 2900 5750
-F 0 "#PWR023" H 2900 5600 50  0001 C CNN
-F 1 "+12V" H 2915 5923 50  0000 C CNN
-F 2 "" H 2900 5750 50  0001 C CNN
-F 3 "" H 2900 5750 50  0001 C CNN
-	1    2900 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND2 #PWR010
-U 1 1 60A60FB6
-P 2300 5950
-F 0 "#PWR010" H 2300 5700 50  0001 C CNN
-F 1 "GND2" H 2305 5777 50  0000 C CNN
-F 2 "" H 2300 5950 50  0001 C CNN
-F 3 "" H 2300 5950 50  0001 C CNN
-	1    2300 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay_SolidState:TLP3542 U11
-U 1 1 60A63A61
-P 2600 6350
-F 0 "U11" H 2600 6675 50  0000 C CNN
-F 1 "TLP3542" H 2600 6584 50  0000 C CNN
-F 2 "Package_DIP:DIP-5-6_W7.62mm" H 2600 6050 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&prodName=TLP3542" H 2600 6350 50  0001 C CNN
-	1    2600 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR024
-U 1 1 60A63A67
-P 2900 6250
-F 0 "#PWR024" H 2900 6100 50  0001 C CNN
-F 1 "+12V" H 2915 6423 50  0000 C CNN
-F 2 "" H 2900 6250 50  0001 C CNN
-F 3 "" H 2900 6250 50  0001 C CNN
-	1    2900 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND2 #PWR011
-U 1 1 60A63A6D
-P 2300 6450
-F 0 "#PWR011" H 2300 6200 50  0001 C CNN
-F 1 "GND2" H 2305 6277 50  0000 C CNN
-F 2 "" H 2300 6450 50  0001 C CNN
-F 3 "" H 2300 6450 50  0001 C CNN
-	1    2300 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay_SolidState:TLP3542 U12
-U 1 1 60A63DFB
-P 2600 6850
-F 0 "U12" H 2600 7175 50  0000 C CNN
-F 1 "TLP3542" H 2600 7084 50  0000 C CNN
-F 2 "Package_DIP:DIP-5-6_W7.62mm" H 2600 6550 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&prodName=TLP3542" H 2600 6850 50  0001 C CNN
-	1    2600 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR025
-U 1 1 60A63E01
-P 2900 6750
-F 0 "#PWR025" H 2900 6600 50  0001 C CNN
-F 1 "+12V" H 2915 6923 50  0000 C CNN
-F 2 "" H 2900 6750 50  0001 C CNN
-F 3 "" H 2900 6750 50  0001 C CNN
-	1    2900 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND2 #PWR012
-U 1 1 60A63E07
-P 2300 6950
-F 0 "#PWR012" H 2300 6700 50  0001 C CNN
-F 1 "GND2" H 2305 6777 50  0000 C CNN
-F 2 "" H 2300 6950 50  0001 C CNN
-F 3 "" H 2300 6950 50  0001 C CNN
-	1    2300 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay_SolidState:TLP3542 U13
-U 1 1 60A641FB
-P 2600 7350
-F 0 "U13" H 2600 7675 50  0000 C CNN
-F 1 "TLP3542" H 2600 7584 50  0000 C CNN
-F 2 "Package_DIP:DIP-5-6_W7.62mm" H 2600 7050 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&prodName=TLP3542" H 2600 7350 50  0001 C CNN
-	1    2600 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR026
-U 1 1 60A64201
-P 2900 7250
-F 0 "#PWR026" H 2900 7100 50  0001 C CNN
-F 1 "+12V" H 2915 7423 50  0000 C CNN
-F 2 "" H 2900 7250 50  0001 C CNN
-F 3 "" H 2900 7250 50  0001 C CNN
-	1    2900 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND2 #PWR013
-U 1 1 60A64207
-P 2300 7450
-F 0 "#PWR013" H 2300 7200 50  0001 C CNN
-F 1 "GND2" H 2305 7277 50  0000 C CNN
-F 2 "" H 2300 7450 50  0001 C CNN
-F 3 "" H 2300 7450 50  0001 C CNN
-	1    2300 7450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1867,182 +1603,6 @@ F 3 "" H 6350 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J10
-U 1 1 60B9265D
-P 6550 2700
-F 0 "J10" H 6630 2692 50  0000 L CNN
-F 1 "Conn_01x02" H 6630 2601 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 6550 2700 50  0001 C CNN
-F 3 "~" H 6550 2700 50  0001 C CNN
-	1    6550 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0106
-U 1 1 60B92663
-P 6350 2800
-F 0 "#PWR0106" H 6350 2550 50  0001 C CNN
-F 1 "GND1" H 6355 2627 50  0000 C CNN
-F 2 "" H 6350 2800 50  0001 C CNN
-F 3 "" H 6350 2800 50  0001 C CNN
-	1    6350 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J11
-U 1 1 60C25F41
-P 6550 3150
-F 0 "J11" H 6630 3142 50  0000 L CNN
-F 1 "Conn_01x02" H 6630 3051 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 6550 3150 50  0001 C CNN
-F 3 "~" H 6550 3150 50  0001 C CNN
-	1    6550 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0107
-U 1 1 60C25F47
-P 6350 3250
-F 0 "#PWR0107" H 6350 3000 50  0001 C CNN
-F 1 "GND1" H 6355 3077 50  0000 C CNN
-F 2 "" H 6350 3250 50  0001 C CNN
-F 3 "" H 6350 3250 50  0001 C CNN
-	1    6350 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J12
-U 1 1 60C25F4D
-P 6550 3600
-F 0 "J12" H 6630 3592 50  0000 L CNN
-F 1 "Conn_01x02" H 6630 3501 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 6550 3600 50  0001 C CNN
-F 3 "~" H 6550 3600 50  0001 C CNN
-	1    6550 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0108
-U 1 1 60C25F53
-P 6350 3700
-F 0 "#PWR0108" H 6350 3450 50  0001 C CNN
-F 1 "GND1" H 6355 3527 50  0000 C CNN
-F 2 "" H 6350 3700 50  0001 C CNN
-F 3 "" H 6350 3700 50  0001 C CNN
-	1    6350 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J13
-U 1 1 60C25F59
-P 6550 4000
-F 0 "J13" H 6630 3992 50  0000 L CNN
-F 1 "Conn_01x02" H 6630 3901 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 6550 4000 50  0001 C CNN
-F 3 "~" H 6550 4000 50  0001 C CNN
-	1    6550 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0109
-U 1 1 60C25F5F
-P 6350 4100
-F 0 "#PWR0109" H 6350 3850 50  0001 C CNN
-F 1 "GND1" H 6355 3927 50  0000 C CNN
-F 2 "" H 6350 4100 50  0001 C CNN
-F 3 "" H 6350 4100 50  0001 C CNN
-	1    6350 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J14
-U 1 1 60C25F65
-P 6550 4400
-F 0 "J14" H 6630 4392 50  0000 L CNN
-F 1 "Conn_01x02" H 6630 4301 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 6550 4400 50  0001 C CNN
-F 3 "~" H 6550 4400 50  0001 C CNN
-	1    6550 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0110
-U 1 1 60C25F6B
-P 6350 4500
-F 0 "#PWR0110" H 6350 4250 50  0001 C CNN
-F 1 "GND1" H 6355 4327 50  0000 C CNN
-F 2 "" H 6350 4500 50  0001 C CNN
-F 3 "" H 6350 4500 50  0001 C CNN
-	1    6350 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J15
-U 1 1 60C25F71
-P 6550 4800
-F 0 "J15" H 6630 4792 50  0000 L CNN
-F 1 "Conn_01x02" H 6630 4701 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 6550 4800 50  0001 C CNN
-F 3 "~" H 6550 4800 50  0001 C CNN
-	1    6550 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0111
-U 1 1 60C25F77
-P 6350 4900
-F 0 "#PWR0111" H 6350 4650 50  0001 C CNN
-F 1 "GND1" H 6355 4727 50  0000 C CNN
-F 2 "" H 6350 4900 50  0001 C CNN
-F 3 "" H 6350 4900 50  0001 C CNN
-	1    6350 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J16
-U 1 1 60C25F7D
-P 6550 5200
-F 0 "J16" H 6630 5192 50  0000 L CNN
-F 1 "Conn_01x02" H 6630 5101 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 6550 5200 50  0001 C CNN
-F 3 "~" H 6550 5200 50  0001 C CNN
-	1    6550 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0112
-U 1 1 60C25F83
-P 6350 5300
-F 0 "#PWR0112" H 6350 5050 50  0001 C CNN
-F 1 "GND1" H 6355 5127 50  0000 C CNN
-F 2 "" H 6350 5300 50  0001 C CNN
-F 3 "" H 6350 5300 50  0001 C CNN
-	1    6350 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J17
-U 1 1 60C2CEF1
-P 7500 700
-F 0 "J17" H 7580 692 50  0000 L CNN
-F 1 "Conn_01x02" H 7580 601 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 7500 700 50  0001 C CNN
-F 3 "~" H 7500 700 50  0001 C CNN
-	1    7500 700 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0113
-U 1 1 60C2CEF7
-P 7300 800
-F 0 "#PWR0113" H 7300 550 50  0001 C CNN
-F 1 "GND1" H 7305 627 50  0000 C CNN
-F 2 "" H 7300 800 50  0001 C CNN
-F 3 "" H 7300 800 50  0001 C CNN
-	1    7300 800 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J18
 U 1 1 60C2CEFD
 P 7500 1150
@@ -2813,28 +2373,6 @@ F 3 "" H 9200 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J53
-U 1 1 60E4295E
-P 10350 700
-F 0 "J53" H 10430 692 50  0000 L CNN
-F 1 "Conn_01x02" H 10430 601 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 10350 700 50  0001 C CNN
-F 3 "~" H 10350 700 50  0001 C CNN
-	1    10350 700 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0149
-U 1 1 60E42964
-P 10150 800
-F 0 "#PWR0149" H 10150 550 50  0001 C CNN
-F 1 "GND1" H 10155 627 50  0000 C CNN
-F 2 "" H 10150 800 50  0001 C CNN
-F 3 "" H 10150 800 50  0001 C CNN
-	1    10150 800 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J3
 U 1 1 60EC11A2
 P 3850 850
@@ -2900,22 +2438,6 @@ Text GLabel 2300 2750 0    50   Input ~ 0
 D05
 Text GLabel 2300 3250 0    50   Input ~ 0
 D06
-Text GLabel 2300 3750 0    50   Input ~ 0
-D10
-Text GLabel 2300 4250 0    50   Input ~ 0
-D11
-Text GLabel 2300 4750 0    50   Input ~ 0
-D12
-Text GLabel 2300 5250 0    50   Input ~ 0
-D13
-Text GLabel 2300 5750 0    50   Input ~ 0
-D14
-Text GLabel 2300 6250 0    50   Input ~ 0
-D15
-Text GLabel 2300 6750 0    50   Input ~ 0
-D16
-Text GLabel 2300 7250 0    50   Input ~ 0
-D17
 Text GLabel 3400 1750 0    50   Input ~ 0
 D18
 Text GLabel 3400 2250 0    50   Input ~ 0
@@ -2998,22 +2520,6 @@ Text GLabel 2900 2950 2    50   Output ~ 0
 Main2
 Text GLabel 2900 3450 2    50   Output ~ 0
 Main3
-Text GLabel 2900 3950 2    50   Output ~ 0
-T1
-Text GLabel 2900 4450 2    50   Output ~ 0
-T2
-Text GLabel 2900 4950 2    50   Output ~ 0
-T3
-Text GLabel 2900 5450 2    50   Output ~ 0
-T4
-Text GLabel 2900 5950 2    50   Output ~ 0
-T5
-Text GLabel 2900 6450 2    50   Output ~ 0
-T6
-Text GLabel 2900 6950 2    50   Output ~ 0
-T7
-Text GLabel 2900 7450 2    50   Output ~ 0
-T8
 Text GLabel 4000 1950 2    50   Output ~ 0
 T9
 Text GLabel 4000 2450 2    50   Output ~ 0
@@ -3100,22 +2606,6 @@ Text GLabel 6350 1900 0    50   Input ~ 0
 Main2
 Text GLabel 6350 2300 0    50   Input ~ 0
 Main3
-Text GLabel 6350 2700 0    50   Input ~ 0
-T1
-Text GLabel 6350 3150 0    50   Input ~ 0
-T2
-Text GLabel 6350 3600 0    50   Input ~ 0
-T3
-Text GLabel 6350 4000 0    50   Input ~ 0
-T4
-Text GLabel 6350 4400 0    50   Input ~ 0
-T5
-Text GLabel 6350 4800 0    50   Input ~ 0
-T6
-Text GLabel 6350 5200 0    50   Input ~ 0
-T7
-Text GLabel 7300 700  0    50   Input ~ 0
-T8
 Text GLabel 7300 1150 0    50   Input ~ 0
 T9
 Text GLabel 7300 1550 0    50   Input ~ 0
@@ -3124,20 +2614,6 @@ Text GLabel 7300 1950 0    50   Input ~ 0
 T11
 Text GLabel 7300 2350 0    50   Input ~ 0
 T12
-Text GLabel 7300 2750 0    50   Input ~ 0
-T13
-Text GLabel 7300 3150 0    50   Input ~ 0
-T14
-Text GLabel 7300 3600 0    50   Input ~ 0
-T15
-Text GLabel 7300 4000 0    50   Input ~ 0
-T16
-Text GLabel 7300 4400 0    50   Input ~ 0
-T17
-Text GLabel 7300 4800 0    50   Input ~ 0
-T18
-Text GLabel 7300 5200 0    50   Input ~ 0
-T19
 Text GLabel 8250 700  0    50   Input ~ 0
 T20
 Text GLabel 8250 1150 0    50   Input ~ 0
@@ -3186,6 +2662,50 @@ Text GLabel 9200 4850 0    50   Input ~ 0
 T42
 Text GLabel 9200 5250 0    50   Input ~ 0
 T43
+$Comp
+L power:GND1 #PWR0149
+U 1 1 60E42964
+P 10150 800
+F 0 "#PWR0149" H 10150 550 50  0001 C CNN
+F 1 "GND1" H 10155 627 50  0000 C CNN
+F 2 "" H 10150 800 50  0001 C CNN
+F 3 "" H 10150 800 50  0001 C CNN
+	1    10150 800 
+	1    0    0    -1  
+$EndComp
 Text GLabel 10150 700  0    50   Input ~ 0
 T44
+$Comp
+L Connector_Generic:Conn_01x02 J53
+U 1 1 60E4295E
+P 10350 700
+F 0 "J53" H 10430 692 50  0000 L CNN
+F 1 "Conn_01x02" H 10430 601 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 10350 700 50  0001 C CNN
+F 3 "~" H 10350 700 50  0001 C CNN
+	1    10350 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 60D9E3A0
+P 2500 3900
+F 0 "J?" H 2580 3942 50  0000 L CNN
+F 1 "Conn_01x03" H 2580 3851 50  0000 L CNN
+F 2 "" H 2500 3900 50  0001 C CNN
+F 3 "~" H 2500 3900 50  0001 C CNN
+	1    2500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60DC9B37
+P 2300 3800
+F 0 "#PWR?" H 2300 3650 50  0001 C CNN
+F 1 "+5V" V 2315 3928 50  0000 L CNN
+F 2 "" H 2300 3800 50  0001 C CNN
+F 3 "" H 2300 3800 50  0001 C CNN
+	1    2300 3800
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
