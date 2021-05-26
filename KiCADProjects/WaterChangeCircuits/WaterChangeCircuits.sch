@@ -14,28 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Relay_SolidState:TLP3542 U2
-U 1 1 609C24AB
-P 2600 1850
-F 0 "U2" H 2600 2175 50  0000 C CNN
-F 1 "TLP3542" H 2600 2084 50  0000 C CNN
-F 2 "Package_DIP:DIP-5-6_W7.62mm" H 2600 1550 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&prodName=TLP3542" H 2600 1850 50  0001 C CNN
-	1    2600 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x27 J2
-U 1 1 609D5998
-P 1300 6200
-F 0 "J2" H 1218 4675 50  0000 C CNN
-F 1 "Conn_01x27" H 1218 4766 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x27_P2.54mm_Vertical" H 1300 6200 50  0001 C CNN
-F 3 "~" H 1300 6200 50  0001 C CNN
-	1    1300 6200
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x25 J1
 U 1 1 609D275F
 P 1300 3200
@@ -120,157 +98,6 @@ Text GLabel 1500 5900 2    50   Output ~ 0
 D37
 Text GLabel 1500 6000 2    50   Output ~ 0
 D38
-Text GLabel 1500 6100 2    50   Output ~ 0
-D39
-Text GLabel 1500 6200 2    50   Output ~ 0
-D40
-Text GLabel 1500 6300 2    50   Output ~ 0
-D41
-Text GLabel 1500 6400 2    50   Output ~ 0
-D42
-Text GLabel 1500 6500 2    50   Output ~ 0
-D43
-Text GLabel 1500 6600 2    50   Output ~ 0
-D44
-Text GLabel 1500 6700 2    50   Output ~ 0
-D45
-Text GLabel 1500 6800 2    50   Output ~ 0
-D46
-Text GLabel 1500 6900 2    50   Output ~ 0
-D47
-Text GLabel 1500 7000 2    50   Output ~ 0
-D48
-Text GLabel 1500 7100 2    50   Output ~ 0
-D49
-Text GLabel 1500 7200 2    50   Output ~ 0
-D50
-Text GLabel 1500 7300 2    50   Output ~ 0
-D51
-Text GLabel 1500 7400 2    50   Output ~ 0
-D52
-Text GLabel 1500 7500 2    50   Output ~ 0
-D53
-$Comp
-L power:+12V #PWR015
-U 1 1 60A4847F
-P 2900 1750
-F 0 "#PWR015" H 2900 1600 50  0001 C CNN
-F 1 "+12V" H 2915 1923 50  0000 C CNN
-F 2 "" H 2900 1750 50  0001 C CNN
-F 3 "" H 2900 1750 50  0001 C CNN
-	1    2900 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND2 #PWR02
-U 1 1 60A4872A
-P 2300 1950
-F 0 "#PWR02" H 2300 1700 50  0001 C CNN
-F 1 "GND2" H 2305 1777 50  0000 C CNN
-F 2 "" H 2300 1950 50  0001 C CNN
-F 3 "" H 2300 1950 50  0001 C CNN
-	1    2300 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay_SolidState:TLP3542 U3
-U 1 1 60A5C264
-P 2600 2350
-F 0 "U3" H 2600 2675 50  0000 C CNN
-F 1 "TLP3542" H 2600 2584 50  0000 C CNN
-F 2 "Package_DIP:DIP-5-6_W7.62mm" H 2600 2050 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&prodName=TLP3542" H 2600 2350 50  0001 C CNN
-	1    2600 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR016
-U 1 1 60A5C26A
-P 2900 2250
-F 0 "#PWR016" H 2900 2100 50  0001 C CNN
-F 1 "+12V" H 2915 2423 50  0000 C CNN
-F 2 "" H 2900 2250 50  0001 C CNN
-F 3 "" H 2900 2250 50  0001 C CNN
-	1    2900 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND2 #PWR03
-U 1 1 60A5C270
-P 2300 2450
-F 0 "#PWR03" H 2300 2200 50  0001 C CNN
-F 1 "GND2" H 2305 2277 50  0000 C CNN
-F 2 "" H 2300 2450 50  0001 C CNN
-F 3 "" H 2300 2450 50  0001 C CNN
-	1    2300 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay_SolidState:TLP3542 U4
-U 1 1 60A5C4F8
-P 2600 2850
-F 0 "U4" H 2600 3175 50  0000 C CNN
-F 1 "TLP3542" H 2600 3084 50  0000 C CNN
-F 2 "Package_DIP:DIP-5-6_W7.62mm" H 2600 2550 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&prodName=TLP3542" H 2600 2850 50  0001 C CNN
-	1    2600 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR017
-U 1 1 60A5C4FE
-P 2900 2750
-F 0 "#PWR017" H 2900 2600 50  0001 C CNN
-F 1 "+12V" H 2915 2923 50  0000 C CNN
-F 2 "" H 2900 2750 50  0001 C CNN
-F 3 "" H 2900 2750 50  0001 C CNN
-	1    2900 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND2 #PWR04
-U 1 1 60A5C504
-P 2300 2950
-F 0 "#PWR04" H 2300 2700 50  0001 C CNN
-F 1 "GND2" H 2305 2777 50  0000 C CNN
-F 2 "" H 2300 2950 50  0001 C CNN
-F 3 "" H 2300 2950 50  0001 C CNN
-	1    2300 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay_SolidState:TLP3542 U5
-U 1 1 60A5D8C5
-P 2600 3350
-F 0 "U5" H 2600 3675 50  0000 C CNN
-F 1 "TLP3542" H 2600 3584 50  0000 C CNN
-F 2 "Package_DIP:DIP-5-6_W7.62mm" H 2600 3050 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&prodName=TLP3542" H 2600 3350 50  0001 C CNN
-	1    2600 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR018
-U 1 1 60A5D8CB
-P 2900 3250
-F 0 "#PWR018" H 2900 3100 50  0001 C CNN
-F 1 "+12V" H 2915 3423 50  0000 C CNN
-F 2 "" H 2900 3250 50  0001 C CNN
-F 3 "" H 2900 3250 50  0001 C CNN
-	1    2900 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND2 #PWR05
-U 1 1 60A5D8D1
-P 2300 3450
-F 0 "#PWR05" H 2300 3200 50  0001 C CNN
-F 1 "GND2" H 2305 3277 50  0000 C CNN
-F 2 "" H 2300 3450 50  0001 C CNN
-F 3 "" H 2300 3450 50  0001 C CNN
-	1    2300 3450
-	1    0    0    -1  
-$EndComp
 $Comp
 L Relay_SolidState:TLP3542 U14
 U 1 1 60A9D60B
@@ -1460,149 +1287,6 @@ F 3 "" H 5350 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Relay_SolidState:TLP3542 U1
-U 1 1 60B010F7
-P 2600 1150
-F 0 "U1" H 2600 1475 50  0000 C CNN
-F 1 "TLP3542" H 2600 1384 50  0000 C CNN
-F 2 "Package_DIP:DIP-5-6_W7.62mm" H 2600 850 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&prodName=TLP3542" H 2600 1150 50  0001 C CNN
-	1    2600 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR014
-U 1 1 60B010FD
-P 2900 1050
-F 0 "#PWR014" H 2900 900 50  0001 C CNN
-F 1 "+12V" H 2915 1223 50  0000 C CNN
-F 2 "" H 2900 1050 50  0001 C CNN
-F 3 "" H 2900 1050 50  0001 C CNN
-	1    2900 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND2 #PWR01
-U 1 1 60B01103
-P 2300 1250
-F 0 "#PWR01" H 2300 1000 50  0001 C CNN
-F 1 "GND2" H 2305 1077 50  0000 C CNN
-F 2 "" H 2300 1250 50  0001 C CNN
-F 3 "" H 2300 1250 50  0001 C CNN
-	1    2300 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J5
-U 1 1 60B2856D
-P 6550 650
-F 0 "J5" H 6630 642 50  0000 L CNN
-F 1 "Conn_01x02" H 6630 551 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 6550 650 50  0001 C CNN
-F 3 "~" H 6550 650 50  0001 C CNN
-	1    6550 650 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0101
-U 1 1 60B3115D
-P 6350 750
-F 0 "#PWR0101" H 6350 500 50  0001 C CNN
-F 1 "GND1" H 6355 577 50  0000 C CNN
-F 2 "" H 6350 750 50  0001 C CNN
-F 3 "" H 6350 750 50  0001 C CNN
-	1    6350 750 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J6
-U 1 1 60B8BD65
-P 6550 1100
-F 0 "J6" H 6630 1092 50  0000 L CNN
-F 1 "Conn_01x02" H 6630 1001 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 6550 1100 50  0001 C CNN
-F 3 "~" H 6550 1100 50  0001 C CNN
-	1    6550 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0102
-U 1 1 60B8BD6B
-P 6350 1200
-F 0 "#PWR0102" H 6350 950 50  0001 C CNN
-F 1 "GND1" H 6355 1027 50  0000 C CNN
-F 2 "" H 6350 1200 50  0001 C CNN
-F 3 "" H 6350 1200 50  0001 C CNN
-	1    6350 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J7
-U 1 1 60B8D855
-P 6550 1500
-F 0 "J7" H 6630 1492 50  0000 L CNN
-F 1 "Conn_01x02" H 6630 1401 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 6550 1500 50  0001 C CNN
-F 3 "~" H 6550 1500 50  0001 C CNN
-	1    6550 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0103
-U 1 1 60B8D85B
-P 6350 1600
-F 0 "#PWR0103" H 6350 1350 50  0001 C CNN
-F 1 "GND1" H 6355 1427 50  0000 C CNN
-F 2 "" H 6350 1600 50  0001 C CNN
-F 3 "" H 6350 1600 50  0001 C CNN
-	1    6350 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J8
-U 1 1 60B8F34D
-P 6550 1900
-F 0 "J8" H 6630 1892 50  0000 L CNN
-F 1 "Conn_01x02" H 6630 1801 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 6550 1900 50  0001 C CNN
-F 3 "~" H 6550 1900 50  0001 C CNN
-	1    6550 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0104
-U 1 1 60B8F353
-P 6350 2000
-F 0 "#PWR0104" H 6350 1750 50  0001 C CNN
-F 1 "GND1" H 6355 1827 50  0000 C CNN
-F 2 "" H 6350 2000 50  0001 C CNN
-F 3 "" H 6350 2000 50  0001 C CNN
-	1    6350 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J9
-U 1 1 60B90CBD
-P 6550 2300
-F 0 "J9" H 6630 2292 50  0000 L CNN
-F 1 "Conn_01x02" H 6630 2201 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 6550 2300 50  0001 C CNN
-F 3 "~" H 6550 2300 50  0001 C CNN
-	1    6550 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0105
-U 1 1 60B90CC3
-P 6350 2400
-F 0 "#PWR0105" H 6350 2150 50  0001 C CNN
-F 1 "GND1" H 6355 2227 50  0000 C CNN
-F 2 "" H 6350 2400 50  0001 C CNN
-F 3 "" H 6350 2400 50  0001 C CNN
-	1    6350 2400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J18
 U 1 1 60C2CEFD
 P 7500 1150
@@ -1688,160 +1372,6 @@ F 1 "GND1" H 7305 2277 50  0000 C CNN
 F 2 "" H 7300 2450 50  0001 C CNN
 F 3 "" H 7300 2450 50  0001 C CNN
 	1    7300 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J22
-U 1 1 60C2CF2D
-P 7500 2750
-F 0 "J22" H 7580 2742 50  0000 L CNN
-F 1 "Conn_01x02" H 7580 2651 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 7500 2750 50  0001 C CNN
-F 3 "~" H 7500 2750 50  0001 C CNN
-	1    7500 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0118
-U 1 1 60C2CF33
-P 7300 2850
-F 0 "#PWR0118" H 7300 2600 50  0001 C CNN
-F 1 "GND1" H 7305 2677 50  0000 C CNN
-F 2 "" H 7300 2850 50  0001 C CNN
-F 3 "" H 7300 2850 50  0001 C CNN
-	1    7300 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J23
-U 1 1 60C31FF5
-P 7500 3150
-F 0 "J23" H 7580 3142 50  0000 L CNN
-F 1 "Conn_01x02" H 7580 3051 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 7500 3150 50  0001 C CNN
-F 3 "~" H 7500 3150 50  0001 C CNN
-	1    7500 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0119
-U 1 1 60C31FFB
-P 7300 3250
-F 0 "#PWR0119" H 7300 3000 50  0001 C CNN
-F 1 "GND1" H 7305 3077 50  0000 C CNN
-F 2 "" H 7300 3250 50  0001 C CNN
-F 3 "" H 7300 3250 50  0001 C CNN
-	1    7300 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J24
-U 1 1 60C32001
-P 7500 3600
-F 0 "J24" H 7580 3592 50  0000 L CNN
-F 1 "Conn_01x02" H 7580 3501 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 7500 3600 50  0001 C CNN
-F 3 "~" H 7500 3600 50  0001 C CNN
-	1    7500 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0120
-U 1 1 60C32007
-P 7300 3700
-F 0 "#PWR0120" H 7300 3450 50  0001 C CNN
-F 1 "GND1" H 7305 3527 50  0000 C CNN
-F 2 "" H 7300 3700 50  0001 C CNN
-F 3 "" H 7300 3700 50  0001 C CNN
-	1    7300 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J25
-U 1 1 60C3200D
-P 7500 4000
-F 0 "J25" H 7580 3992 50  0000 L CNN
-F 1 "Conn_01x02" H 7580 3901 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 7500 4000 50  0001 C CNN
-F 3 "~" H 7500 4000 50  0001 C CNN
-	1    7500 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0121
-U 1 1 60C32013
-P 7300 4100
-F 0 "#PWR0121" H 7300 3850 50  0001 C CNN
-F 1 "GND1" H 7305 3927 50  0000 C CNN
-F 2 "" H 7300 4100 50  0001 C CNN
-F 3 "" H 7300 4100 50  0001 C CNN
-	1    7300 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J26
-U 1 1 60C32019
-P 7500 4400
-F 0 "J26" H 7580 4392 50  0000 L CNN
-F 1 "Conn_01x02" H 7580 4301 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 7500 4400 50  0001 C CNN
-F 3 "~" H 7500 4400 50  0001 C CNN
-	1    7500 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0122
-U 1 1 60C3201F
-P 7300 4500
-F 0 "#PWR0122" H 7300 4250 50  0001 C CNN
-F 1 "GND1" H 7305 4327 50  0000 C CNN
-F 2 "" H 7300 4500 50  0001 C CNN
-F 3 "" H 7300 4500 50  0001 C CNN
-	1    7300 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J27
-U 1 1 60C32025
-P 7500 4800
-F 0 "J27" H 7580 4792 50  0000 L CNN
-F 1 "Conn_01x02" H 7580 4701 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 7500 4800 50  0001 C CNN
-F 3 "~" H 7500 4800 50  0001 C CNN
-	1    7500 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0123
-U 1 1 60C3202B
-P 7300 4900
-F 0 "#PWR0123" H 7300 4650 50  0001 C CNN
-F 1 "GND1" H 7305 4727 50  0000 C CNN
-F 2 "" H 7300 4900 50  0001 C CNN
-F 3 "" H 7300 4900 50  0001 C CNN
-	1    7300 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J28
-U 1 1 60C32031
-P 7500 5200
-F 0 "J28" H 7580 5192 50  0000 L CNN
-F 1 "Conn_01x02" H 7580 5101 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 7500 5200 50  0001 C CNN
-F 3 "~" H 7500 5200 50  0001 C CNN
-	1    7500 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0124
-U 1 1 60C32037
-P 7300 5300
-F 0 "#PWR0124" H 7300 5050 50  0001 C CNN
-F 1 "GND1" H 7305 5127 50  0000 C CNN
-F 2 "" H 7300 5300 50  0001 C CNN
-F 3 "" H 7300 5300 50  0001 C CNN
-	1    7300 5300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2428,24 +1958,6 @@ U 60FF9D85
 F0 "AnalogConnections" 50
 F1 "Analog.sch" 50
 $EndSheet
-Text GLabel 2300 1050 0    50   Input ~ 0
-D02
-Text GLabel 2300 1750 0    50   Input ~ 0
-D03
-Text GLabel 2300 2250 0    50   Input ~ 0
-D04
-Text GLabel 2300 2750 0    50   Input ~ 0
-D05
-Text GLabel 2300 3250 0    50   Input ~ 0
-D06
-Text GLabel 3400 1750 0    50   Input ~ 0
-D18
-Text GLabel 3400 2250 0    50   Input ~ 0
-D19
-Text GLabel 3400 2750 0    50   Input ~ 0
-D20
-Text GLabel 3400 3250 0    50   Input ~ 0
-D21
 Text GLabel 3400 3750 0    50   Input ~ 0
 D22
 Text GLabel 3400 4250 0    50   Input ~ 0
@@ -2510,16 +2022,6 @@ Text GLabel 5350 6750 0    50   Input ~ 0
 D52
 Text GLabel 5350 7250 0    50   Input ~ 0
 D53
-Text GLabel 2900 1250 2    50   Output ~ 0
-Pump1
-Text GLabel 2900 1950 2    50   Output ~ 0
-Pump2
-Text GLabel 2900 2450 2    50   Output ~ 0
-Main1
-Text GLabel 2900 2950 2    50   Output ~ 0
-Main2
-Text GLabel 2900 3450 2    50   Output ~ 0
-Main3
 Text GLabel 4000 1950 2    50   Output ~ 0
 T9
 Text GLabel 4000 2450 2    50   Output ~ 0
@@ -2568,10 +2070,6 @@ Text GLabel 4950 6950 2    50   Output ~ 0
 T31
 Text GLabel 4950 7450 2    50   Output ~ 0
 T32
-Text GLabel 5950 1950 2    50   Output ~ 0
-T33
-Text GLabel 5950 2450 2    50   Output ~ 0
-T34
 Text GLabel 5950 2950 2    50   Output ~ 0
 T35
 Text GLabel 5950 3450 2    50   Output ~ 0
@@ -2596,16 +2094,6 @@ Text GLabel 3650 850  0    50   Output ~ 0
 D08
 Text GLabel 4750 850  0    50   Output ~ 0
 D07
-Text GLabel 6350 650  0    50   Input ~ 0
-Pump1
-Text GLabel 6350 1100 0    50   Input ~ 0
-Pump2
-Text GLabel 6350 1500 0    50   Input ~ 0
-Main1
-Text GLabel 6350 1900 0    50   Input ~ 0
-Main2
-Text GLabel 6350 2300 0    50   Input ~ 0
-Main3
 Text GLabel 7300 1150 0    50   Input ~ 0
 T9
 Text GLabel 7300 1550 0    50   Input ~ 0
@@ -2686,26 +2174,900 @@ F 3 "~" H 10350 700 50  0001 C CNN
 	1    10350 700 
 	1    0    0    -1  
 $EndComp
+Text GLabel 10400 2950 0    50   Input ~ 0
+Main3
+Text GLabel 10400 2550 0    50   Input ~ 0
+Main2
+Text GLabel 10400 2150 0    50   Input ~ 0
+Main1
+Text GLabel 10400 1750 0    50   Input ~ 0
+Pump2
+Text GLabel 10400 1300 0    50   Input ~ 0
+Pump1
+Text GLabel 5950 2450 2    50   Output ~ 0
+T34
+Text GLabel 5950 1950 2    50   Output ~ 0
+T33
 $Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 60D9E3A0
-P 2500 3900
-F 0 "J?" H 2580 3942 50  0000 L CNN
-F 1 "Conn_01x03" H 2580 3851 50  0000 L CNN
-F 2 "" H 2500 3900 50  0001 C CNN
-F 3 "~" H 2500 3900 50  0001 C CNN
-	1    2500 3900
+L power:GND1 #PWR0105
+U 1 1 60B90CC3
+P 10400 3050
+F 0 "#PWR0105" H 10400 2800 50  0001 C CNN
+F 1 "GND1" H 10405 2877 50  0000 C CNN
+F 2 "" H 10400 3050 50  0001 C CNN
+F 3 "" H 10400 3050 50  0001 C CNN
+	1    10400 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L Connector_Generic:Conn_01x02 J9
+U 1 1 60B90CBD
+P 10600 2950
+F 0 "J9" H 10680 2942 50  0000 L CNN
+F 1 "Conn_01x02" H 10680 2851 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 10600 2950 50  0001 C CNN
+F 3 "~" H 10600 2950 50  0001 C CNN
+	1    10600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0104
+U 1 1 60B8F353
+P 10400 2650
+F 0 "#PWR0104" H 10400 2400 50  0001 C CNN
+F 1 "GND1" H 10405 2477 50  0000 C CNN
+F 2 "" H 10400 2650 50  0001 C CNN
+F 3 "" H 10400 2650 50  0001 C CNN
+	1    10400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 60B8F34D
+P 10600 2550
+F 0 "J8" H 10680 2542 50  0000 L CNN
+F 1 "Conn_01x02" H 10680 2451 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 10600 2550 50  0001 C CNN
+F 3 "~" H 10600 2550 50  0001 C CNN
+	1    10600 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0103
+U 1 1 60B8D85B
+P 10400 2250
+F 0 "#PWR0103" H 10400 2000 50  0001 C CNN
+F 1 "GND1" H 10405 2077 50  0000 C CNN
+F 2 "" H 10400 2250 50  0001 C CNN
+F 3 "" H 10400 2250 50  0001 C CNN
+	1    10400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 60B8D855
+P 10600 2150
+F 0 "J7" H 10680 2142 50  0000 L CNN
+F 1 "Conn_01x02" H 10680 2051 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 10600 2150 50  0001 C CNN
+F 3 "~" H 10600 2150 50  0001 C CNN
+	1    10600 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0102
+U 1 1 60B8BD6B
+P 10400 1850
+F 0 "#PWR0102" H 10400 1600 50  0001 C CNN
+F 1 "GND1" H 10405 1677 50  0000 C CNN
+F 2 "" H 10400 1850 50  0001 C CNN
+F 3 "" H 10400 1850 50  0001 C CNN
+	1    10400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 60B8BD65
+P 10600 1750
+F 0 "J6" H 10680 1742 50  0000 L CNN
+F 1 "Conn_01x02" H 10680 1651 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 10600 1750 50  0001 C CNN
+F 3 "~" H 10600 1750 50  0001 C CNN
+	1    10600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0101
+U 1 1 60B3115D
+P 10400 1400
+F 0 "#PWR0101" H 10400 1150 50  0001 C CNN
+F 1 "GND1" H 10405 1227 50  0000 C CNN
+F 2 "" H 10400 1400 50  0001 C CNN
+F 3 "" H 10400 1400 50  0001 C CNN
+	1    10400 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 60B2856D
+P 10600 1300
+F 0 "J5" H 10680 1292 50  0000 L CNN
+F 1 "Conn_01x02" H 10680 1201 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 10600 1300 50  0001 C CNN
+F 3 "~" H 10600 1300 50  0001 C CNN
+	1    10600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR0106
+U 1 1 60BF1CD2
+P 2300 6550
+F 0 "#PWR0106" H 2300 6300 50  0001 C CNN
+F 1 "GND2" H 2305 6377 50  0000 C CNN
+F 2 "" H 2300 6550 50  0001 C CNN
+F 3 "" H 2300 6550 50  0001 C CNN
+	1    2300 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0107
+U 1 1 60BF1CCC
+P 2300 6350
+F 0 "#PWR0107" H 2300 6200 50  0001 C CNN
+F 1 "+5V" V 2315 6478 50  0000 L CNN
+F 2 "" H 2300 6350 50  0001 C CNN
+F 3 "" H 2300 6350 50  0001 C CNN
+	1    2300 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J15
+U 1 1 60BF1CC6
+P 2500 6450
+F 0 "J15" H 2580 6492 50  0000 L CNN
+F 1 "Conn_01x03" H 2580 6401 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 2500 6450 50  0001 C CNN
+F 3 "~" H 2500 6450 50  0001 C CNN
+	1    2500 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR0108
+U 1 1 60BF1CC0
+P 2300 6050
+F 0 "#PWR0108" H 2300 5800 50  0001 C CNN
+F 1 "GND2" H 2305 5877 50  0000 C CNN
+F 2 "" H 2300 6050 50  0001 C CNN
+F 3 "" H 2300 6050 50  0001 C CNN
+	1    2300 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0109
+U 1 1 60BF1CBA
+P 2300 5850
+F 0 "#PWR0109" H 2300 5700 50  0001 C CNN
+F 1 "+5V" V 2315 5978 50  0000 L CNN
+F 2 "" H 2300 5850 50  0001 C CNN
+F 3 "" H 2300 5850 50  0001 C CNN
+	1    2300 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J14
+U 1 1 60BF1CB4
+P 2500 5950
+F 0 "J14" H 2580 5992 50  0000 L CNN
+F 1 "Conn_01x03" H 2580 5901 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 2500 5950 50  0001 C CNN
+F 3 "~" H 2500 5950 50  0001 C CNN
+	1    2500 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR0110
+U 1 1 60BF1CAE
+P 2300 5550
+F 0 "#PWR0110" H 2300 5300 50  0001 C CNN
+F 1 "GND2" H 2305 5377 50  0000 C CNN
+F 2 "" H 2300 5550 50  0001 C CNN
+F 3 "" H 2300 5550 50  0001 C CNN
+	1    2300 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0111
+U 1 1 60BF1CA8
+P 2300 5350
+F 0 "#PWR0111" H 2300 5200 50  0001 C CNN
+F 1 "+5V" V 2315 5478 50  0000 L CNN
+F 2 "" H 2300 5350 50  0001 C CNN
+F 3 "" H 2300 5350 50  0001 C CNN
+	1    2300 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J13
+U 1 1 60BF1CA2
+P 2500 5450
+F 0 "J13" H 2580 5492 50  0000 L CNN
+F 1 "Conn_01x03" H 2580 5401 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 2500 5450 50  0001 C CNN
+F 3 "~" H 2500 5450 50  0001 C CNN
+	1    2500 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR0188
+U 1 1 60B55AD2
+P 2300 4500
+F 0 "#PWR0188" H 2300 4250 50  0001 C CNN
+F 1 "GND2" H 2305 4327 50  0000 C CNN
+F 2 "" H 2300 4500 50  0001 C CNN
+F 3 "" H 2300 4500 50  0001 C CNN
+	1    2300 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0189
+U 1 1 60B55ACC
+P 2300 4300
+F 0 "#PWR0189" H 2300 4150 50  0001 C CNN
+F 1 "+5V" V 2315 4428 50  0000 L CNN
+F 2 "" H 2300 4300 50  0001 C CNN
+F 3 "" H 2300 4300 50  0001 C CNN
+	1    2300 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J11
+U 1 1 60B55AC6
+P 2500 4400
+F 0 "J11" H 2580 4442 50  0000 L CNN
+F 1 "Conn_01x03" H 2580 4351 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 2500 4400 50  0001 C CNN
+F 3 "~" H 2500 4400 50  0001 C CNN
+	1    2500 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR0190
+U 1 1 60AF3140
+P 2300 4000
+F 0 "#PWR0190" H 2300 3750 50  0001 C CNN
+F 1 "GND2" H 2305 3827 50  0000 C CNN
+F 2 "" H 2300 4000 50  0001 C CNN
+F 3 "" H 2300 4000 50  0001 C CNN
+	1    2300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0191
 U 1 1 60DC9B37
 P 2300 3800
-F 0 "#PWR?" H 2300 3650 50  0001 C CNN
+F 0 "#PWR0191" H 2300 3650 50  0001 C CNN
 F 1 "+5V" V 2315 3928 50  0000 L CNN
 F 2 "" H 2300 3800 50  0001 C CNN
 F 3 "" H 2300 3800 50  0001 C CNN
 	1    2300 3800
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J10
+U 1 1 60D9E3A0
+P 2500 3900
+F 0 "J10" H 2580 3942 50  0000 L CNN
+F 1 "Conn_01x03" H 2580 3851 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 2500 3900 50  0001 C CNN
+F 3 "~" H 2500 3900 50  0001 C CNN
+	1    2500 3900
+	1    0    0    -1  
+$EndComp
+Text GLabel 2900 3450 2    50   Output ~ 0
+Main3
+Text GLabel 2900 2950 2    50   Output ~ 0
+Main2
+Text GLabel 2900 2450 2    50   Output ~ 0
+Main1
+Text GLabel 2900 1950 2    50   Output ~ 0
+Pump2
+Text GLabel 2900 1250 2    50   Output ~ 0
+Pump1
+Text GLabel 3400 3250 0    50   Input ~ 0
+D21
+Text GLabel 3400 2750 0    50   Input ~ 0
+D20
+Text GLabel 3400 2250 0    50   Input ~ 0
+D19
+Text GLabel 3400 1750 0    50   Input ~ 0
+D18
+Text GLabel 2300 3250 0    50   Input ~ 0
+D06
+Text GLabel 2300 2750 0    50   Input ~ 0
+D05
+Text GLabel 2300 2250 0    50   Input ~ 0
+D04
+Text GLabel 2300 1750 0    50   Input ~ 0
+D03
+Text GLabel 2300 1050 0    50   Input ~ 0
+D02
+$Comp
+L power:GND2 #PWR01
+U 1 1 60B01103
+P 2300 1250
+F 0 "#PWR01" H 2300 1000 50  0001 C CNN
+F 1 "GND2" H 2305 1077 50  0000 C CNN
+F 2 "" H 2300 1250 50  0001 C CNN
+F 3 "" H 2300 1250 50  0001 C CNN
+	1    2300 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR014
+U 1 1 60B010FD
+P 2900 1050
+F 0 "#PWR014" H 2900 900 50  0001 C CNN
+F 1 "+12V" H 2915 1223 50  0000 C CNN
+F 2 "" H 2900 1050 50  0001 C CNN
+F 3 "" H 2900 1050 50  0001 C CNN
+	1    2900 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay_SolidState:TLP3542 U1
+U 1 1 60B010F7
+P 2600 1150
+F 0 "U1" H 2600 1475 50  0000 C CNN
+F 1 "TLP3542" H 2600 1384 50  0000 C CNN
+F 2 "Package_DIP:DIP-5-6_W7.62mm" H 2600 850 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&prodName=TLP3542" H 2600 1150 50  0001 C CNN
+	1    2600 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR05
+U 1 1 60A5D8D1
+P 2300 3450
+F 0 "#PWR05" H 2300 3200 50  0001 C CNN
+F 1 "GND2" H 2305 3277 50  0000 C CNN
+F 2 "" H 2300 3450 50  0001 C CNN
+F 3 "" H 2300 3450 50  0001 C CNN
+	1    2300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR018
+U 1 1 60A5D8CB
+P 2900 3250
+F 0 "#PWR018" H 2900 3100 50  0001 C CNN
+F 1 "+12V" H 2915 3423 50  0000 C CNN
+F 2 "" H 2900 3250 50  0001 C CNN
+F 3 "" H 2900 3250 50  0001 C CNN
+	1    2900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay_SolidState:TLP3542 U5
+U 1 1 60A5D8C5
+P 2600 3350
+F 0 "U5" H 2600 3675 50  0000 C CNN
+F 1 "TLP3542" H 2600 3584 50  0000 C CNN
+F 2 "Package_DIP:DIP-5-6_W7.62mm" H 2600 3050 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&prodName=TLP3542" H 2600 3350 50  0001 C CNN
+	1    2600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR04
+U 1 1 60A5C504
+P 2300 2950
+F 0 "#PWR04" H 2300 2700 50  0001 C CNN
+F 1 "GND2" H 2305 2777 50  0000 C CNN
+F 2 "" H 2300 2950 50  0001 C CNN
+F 3 "" H 2300 2950 50  0001 C CNN
+	1    2300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR017
+U 1 1 60A5C4FE
+P 2900 2750
+F 0 "#PWR017" H 2900 2600 50  0001 C CNN
+F 1 "+12V" H 2915 2923 50  0000 C CNN
+F 2 "" H 2900 2750 50  0001 C CNN
+F 3 "" H 2900 2750 50  0001 C CNN
+	1    2900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay_SolidState:TLP3542 U4
+U 1 1 60A5C4F8
+P 2600 2850
+F 0 "U4" H 2600 3175 50  0000 C CNN
+F 1 "TLP3542" H 2600 3084 50  0000 C CNN
+F 2 "Package_DIP:DIP-5-6_W7.62mm" H 2600 2550 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&prodName=TLP3542" H 2600 2850 50  0001 C CNN
+	1    2600 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR03
+U 1 1 60A5C270
+P 2300 2450
+F 0 "#PWR03" H 2300 2200 50  0001 C CNN
+F 1 "GND2" H 2305 2277 50  0000 C CNN
+F 2 "" H 2300 2450 50  0001 C CNN
+F 3 "" H 2300 2450 50  0001 C CNN
+	1    2300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR016
+U 1 1 60A5C26A
+P 2900 2250
+F 0 "#PWR016" H 2900 2100 50  0001 C CNN
+F 1 "+12V" H 2915 2423 50  0000 C CNN
+F 2 "" H 2900 2250 50  0001 C CNN
+F 3 "" H 2900 2250 50  0001 C CNN
+	1    2900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay_SolidState:TLP3542 U3
+U 1 1 60A5C264
+P 2600 2350
+F 0 "U3" H 2600 2675 50  0000 C CNN
+F 1 "TLP3542" H 2600 2584 50  0000 C CNN
+F 2 "Package_DIP:DIP-5-6_W7.62mm" H 2600 2050 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&prodName=TLP3542" H 2600 2350 50  0001 C CNN
+	1    2600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR02
+U 1 1 60A4872A
+P 2300 1950
+F 0 "#PWR02" H 2300 1700 50  0001 C CNN
+F 1 "GND2" H 2305 1777 50  0000 C CNN
+F 2 "" H 2300 1950 50  0001 C CNN
+F 3 "" H 2300 1950 50  0001 C CNN
+	1    2300 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR015
+U 1 1 60A4847F
+P 2900 1750
+F 0 "#PWR015" H 2900 1600 50  0001 C CNN
+F 1 "+12V" H 2915 1923 50  0000 C CNN
+F 2 "" H 2900 1750 50  0001 C CNN
+F 3 "" H 2900 1750 50  0001 C CNN
+	1    2900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay_SolidState:TLP3542 U2
+U 1 1 609C24AB
+P 2600 1850
+F 0 "U2" H 2600 2175 50  0000 C CNN
+F 1 "TLP3542" H 2600 2084 50  0000 C CNN
+F 2 "Package_DIP:DIP-5-6_W7.62mm" H 2600 1550 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&prodName=TLP3542" H 2600 1850 50  0001 C CNN
+	1    2600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J16
+U 1 1 60EC4CC5
+P 6500 800
+F 0 "J16" H 6580 842 50  0000 L CNN
+F 1 "Conn_01x03" H 6580 751 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 6500 800 50  0001 C CNN
+F 3 "~" H 6500 800 50  0001 C CNN
+	1    6500 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0192
+U 1 1 60EC4CCB
+P 6300 700
+F 0 "#PWR0192" H 6300 550 50  0001 C CNN
+F 1 "+5V" V 6315 828 50  0000 L CNN
+F 2 "" H 6300 700 50  0001 C CNN
+F 3 "" H 6300 700 50  0001 C CNN
+	1    6300 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND2 #PWR0193
+U 1 1 60EC4CD1
+P 6300 900
+F 0 "#PWR0193" H 6300 650 50  0001 C CNN
+F 1 "GND2" H 6305 727 50  0000 C CNN
+F 2 "" H 6300 900 50  0001 C CNN
+F 3 "" H 6300 900 50  0001 C CNN
+	1    6300 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J17
+U 1 1 60EC4CD7
+P 6500 1300
+F 0 "J17" H 6580 1342 50  0000 L CNN
+F 1 "Conn_01x03" H 6580 1251 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 6500 1300 50  0001 C CNN
+F 3 "~" H 6500 1300 50  0001 C CNN
+	1    6500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0194
+U 1 1 60EC4CDD
+P 6300 1200
+F 0 "#PWR0194" H 6300 1050 50  0001 C CNN
+F 1 "+5V" V 6315 1328 50  0000 L CNN
+F 2 "" H 6300 1200 50  0001 C CNN
+F 3 "" H 6300 1200 50  0001 C CNN
+	1    6300 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND2 #PWR0195
+U 1 1 60EC4CE3
+P 6300 1400
+F 0 "#PWR0195" H 6300 1150 50  0001 C CNN
+F 1 "GND2" H 6305 1227 50  0000 C CNN
+F 2 "" H 6300 1400 50  0001 C CNN
+F 3 "" H 6300 1400 50  0001 C CNN
+	1    6300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J74
+U 1 1 60EC4CE9
+P 6500 1800
+F 0 "J74" H 6580 1842 50  0000 L CNN
+F 1 "Conn_01x03" H 6580 1751 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 6500 1800 50  0001 C CNN
+F 3 "~" H 6500 1800 50  0001 C CNN
+	1    6500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0196
+U 1 1 60EC4CEF
+P 6300 1700
+F 0 "#PWR0196" H 6300 1550 50  0001 C CNN
+F 1 "+5V" V 6315 1828 50  0000 L CNN
+F 2 "" H 6300 1700 50  0001 C CNN
+F 3 "" H 6300 1700 50  0001 C CNN
+	1    6300 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND2 #PWR0197
+U 1 1 60EC4CF5
+P 6300 1900
+F 0 "#PWR0197" H 6300 1650 50  0001 C CNN
+F 1 "GND2" H 6305 1727 50  0000 C CNN
+F 2 "" H 6300 1900 50  0001 C CNN
+F 3 "" H 6300 1900 50  0001 C CNN
+	1    6300 1900
+	1    0    0    -1  
+$EndComp
+Text GLabel 2300 3900 0    50   Output ~ 0
+D13
+Text GLabel 2300 4400 0    50   Output ~ 0
+D12
+Text GLabel 2300 5450 0    50   Output ~ 0
+D11
+Text GLabel 2300 5950 0    50   Output ~ 0
+D10
+Text GLabel 2300 6450 0    50   Output ~ 0
+D09
+Text GLabel 6300 800  0    50   Output ~ 0
+D14
+Text GLabel 6300 1300 0    50   Output ~ 0
+D15
+Text GLabel 6300 1800 0    50   Output ~ 0
+D16
+$Comp
+L power:GND2 #PWR0198
+U 1 1 60F6ADFB
+P 6300 2450
+F 0 "#PWR0198" H 6300 2200 50  0001 C CNN
+F 1 "GND2" H 6305 2277 50  0000 C CNN
+F 2 "" H 6300 2450 50  0001 C CNN
+F 3 "" H 6300 2450 50  0001 C CNN
+	1    6300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0199
+U 1 1 60F6AE01
+P 6300 2250
+F 0 "#PWR0199" H 6300 2100 50  0001 C CNN
+F 1 "+5V" V 6315 2378 50  0000 L CNN
+F 2 "" H 6300 2250 50  0001 C CNN
+F 3 "" H 6300 2250 50  0001 C CNN
+	1    6300 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J75
+U 1 1 60F6AE07
+P 6500 2350
+F 0 "J75" H 6580 2392 50  0000 L CNN
+F 1 "Conn_01x03" H 6580 2301 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 6500 2350 50  0001 C CNN
+F 3 "~" H 6500 2350 50  0001 C CNN
+	1    6500 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 6300 2350 0    50   Output ~ 0
+D17
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 610D4CF8
+P 800 1550
+F 0 "H1" H 900 1596 50  0000 L CNN
+F 1 "MountingHole" H 900 1505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 800 1550 50  0001 C CNN
+F 3 "~" H 800 1550 50  0001 C CNN
+	1    800  1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 610DEC91
+P 800 1850
+F 0 "H2" H 900 1896 50  0000 L CNN
+F 1 "MountingHole" H 900 1805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 800 1850 50  0001 C CNN
+F 3 "~" H 800 1850 50  0001 C CNN
+	1    800  1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 610DFA3B
+P 800 2150
+F 0 "H3" H 900 2196 50  0000 L CNN
+F 1 "MountingHole" H 900 2105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 800 2150 50  0001 C CNN
+F 3 "~" H 800 2150 50  0001 C CNN
+	1    800  2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 610E1423
+P 800 2500
+F 0 "H4" H 900 2546 50  0000 L CNN
+F 1 "MountingHole" H 900 2455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 800 2500 50  0001 C CNN
+F 3 "~" H 800 2500 50  0001 C CNN
+	1    800  2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x15 J2
+U 1 1 61467CEB
+P 1300 5600
+F 0 "J2" H 1218 4675 50  0000 C CNN
+F 1 "Conn_01x15" H 1218 4766 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 1300 5600 50  0001 C CNN
+F 3 "~" H 1300 5600 50  0001 C CNN
+	1    1300 5600
+	-1   0    0    1   
+$EndComp
+Text GLabel 1500 6100 2    50   Output ~ 0
+D39
+Text GLabel 1500 6200 2    50   Output ~ 0
+D40
+Text GLabel 1500 6300 2    50   Output ~ 0
+D41
+$Comp
+L Connector_Generic:Conn_01x12 J12
+U 1 1 61474E63
+P 1300 7150
+F 0 "J12" H 1218 6325 50  0000 C CNN
+F 1 "Conn_01x12" H 1218 6416 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 1300 7150 50  0001 C CNN
+F 3 "~" H 1300 7150 50  0001 C CNN
+	1    1300 7150
+	-1   0    0    1   
+$EndComp
+Text GLabel 1500 6550 2    50   Output ~ 0
+D42
+Text GLabel 1500 6650 2    50   Output ~ 0
+D43
+Text GLabel 1500 6750 2    50   Output ~ 0
+D44
+Text GLabel 1500 6850 2    50   Output ~ 0
+D45
+Text GLabel 1500 6950 2    50   Output ~ 0
+D46
+Text GLabel 1500 7050 2    50   Output ~ 0
+D47
+Text GLabel 1500 7150 2    50   Output ~ 0
+D48
+Text GLabel 1500 7250 2    50   Output ~ 0
+D49
+Text GLabel 1500 7350 2    50   Output ~ 0
+D50
+Text GLabel 1500 7450 2    50   Output ~ 0
+D51
+Text GLabel 1500 7550 2    50   Output ~ 0
+D52
+Text GLabel 1500 7650 2    50   Output ~ 0
+D53
+$Comp
+L power:GND1 #PWR0124
+U 1 1 60C32037
+P 7300 5300
+F 0 "#PWR0124" H 7300 5050 50  0001 C CNN
+F 1 "GND1" H 7305 5127 50  0000 C CNN
+F 2 "" H 7300 5300 50  0001 C CNN
+F 3 "" H 7300 5300 50  0001 C CNN
+	1    7300 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J28
+U 1 1 60C32031
+P 7500 5200
+F 0 "J28" H 7580 5192 50  0000 L CNN
+F 1 "Conn_01x02" H 7580 5101 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 7500 5200 50  0001 C CNN
+F 3 "~" H 7500 5200 50  0001 C CNN
+	1    7500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0123
+U 1 1 60C3202B
+P 7300 4900
+F 0 "#PWR0123" H 7300 4650 50  0001 C CNN
+F 1 "GND1" H 7305 4727 50  0000 C CNN
+F 2 "" H 7300 4900 50  0001 C CNN
+F 3 "" H 7300 4900 50  0001 C CNN
+	1    7300 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J27
+U 1 1 60C32025
+P 7500 4800
+F 0 "J27" H 7580 4792 50  0000 L CNN
+F 1 "Conn_01x02" H 7580 4701 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 7500 4800 50  0001 C CNN
+F 3 "~" H 7500 4800 50  0001 C CNN
+	1    7500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0122
+U 1 1 60C3201F
+P 7300 4500
+F 0 "#PWR0122" H 7300 4250 50  0001 C CNN
+F 1 "GND1" H 7305 4327 50  0000 C CNN
+F 2 "" H 7300 4500 50  0001 C CNN
+F 3 "" H 7300 4500 50  0001 C CNN
+	1    7300 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J26
+U 1 1 60C32019
+P 7500 4400
+F 0 "J26" H 7580 4392 50  0000 L CNN
+F 1 "Conn_01x02" H 7580 4301 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 7500 4400 50  0001 C CNN
+F 3 "~" H 7500 4400 50  0001 C CNN
+	1    7500 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0121
+U 1 1 60C32013
+P 7300 4100
+F 0 "#PWR0121" H 7300 3850 50  0001 C CNN
+F 1 "GND1" H 7305 3927 50  0000 C CNN
+F 2 "" H 7300 4100 50  0001 C CNN
+F 3 "" H 7300 4100 50  0001 C CNN
+	1    7300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J25
+U 1 1 60C3200D
+P 7500 4000
+F 0 "J25" H 7580 3992 50  0000 L CNN
+F 1 "Conn_01x02" H 7580 3901 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 7500 4000 50  0001 C CNN
+F 3 "~" H 7500 4000 50  0001 C CNN
+	1    7500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0120
+U 1 1 60C32007
+P 7300 3700
+F 0 "#PWR0120" H 7300 3450 50  0001 C CNN
+F 1 "GND1" H 7305 3527 50  0000 C CNN
+F 2 "" H 7300 3700 50  0001 C CNN
+F 3 "" H 7300 3700 50  0001 C CNN
+	1    7300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J24
+U 1 1 60C32001
+P 7500 3600
+F 0 "J24" H 7580 3592 50  0000 L CNN
+F 1 "Conn_01x02" H 7580 3501 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 7500 3600 50  0001 C CNN
+F 3 "~" H 7500 3600 50  0001 C CNN
+	1    7500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0119
+U 1 1 60C31FFB
+P 7300 3250
+F 0 "#PWR0119" H 7300 3000 50  0001 C CNN
+F 1 "GND1" H 7305 3077 50  0000 C CNN
+F 2 "" H 7300 3250 50  0001 C CNN
+F 3 "" H 7300 3250 50  0001 C CNN
+	1    7300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J23
+U 1 1 60C31FF5
+P 7500 3150
+F 0 "J23" H 7580 3142 50  0000 L CNN
+F 1 "Conn_01x02" H 7580 3051 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 7500 3150 50  0001 C CNN
+F 3 "~" H 7500 3150 50  0001 C CNN
+	1    7500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0118
+U 1 1 60C2CF33
+P 7300 2850
+F 0 "#PWR0118" H 7300 2600 50  0001 C CNN
+F 1 "GND1" H 7305 2677 50  0000 C CNN
+F 2 "" H 7300 2850 50  0001 C CNN
+F 3 "" H 7300 2850 50  0001 C CNN
+	1    7300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J22
+U 1 1 60C2CF2D
+P 7500 2750
+F 0 "J22" H 7580 2742 50  0000 L CNN
+F 1 "Conn_01x02" H 7580 2651 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 7500 2750 50  0001 C CNN
+F 3 "~" H 7500 2750 50  0001 C CNN
+	1    7500 2750
+	1    0    0    -1  
+$EndComp
+Text GLabel 7300 2750 0    50   Input ~ 0
+T13
+Text GLabel 7300 3150 0    50   Input ~ 0
+T14
+Text GLabel 7300 3600 0    50   Input ~ 0
+T15
+Text GLabel 7300 4000 0    50   Input ~ 0
+T16
+Text GLabel 7300 4400 0    50   Input ~ 0
+T17
+Text GLabel 7300 4800 0    50   Input ~ 0
+T18
+Text GLabel 7300 5200 0    50   Input ~ 0
+T19
 $EndSCHEMATC

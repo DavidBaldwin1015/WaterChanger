@@ -552,23 +552,23 @@ F 3 "" H 3300 1700 50  0001 C CNN
 	1    3300 1700
 	1    0    0    -1  
 $EndComp
-Text GLabel 2500 2300 2    50   Input ~ 0
+Text GLabel 2500 2300 2    50   BiDi ~ 0
 A0
-Text GLabel 2500 2400 2    50   Input ~ 0
+Text GLabel 2500 2400 2    50   BiDi ~ 0
 A1
-Text GLabel 2500 2500 2    50   Input ~ 0
+Text GLabel 2500 2500 2    50   BiDi ~ 0
 A2
-Text GLabel 2500 2600 2    50   Input ~ 0
+Text GLabel 2500 2600 2    50   BiDi ~ 0
 A3
-Text GLabel 2500 2700 2    50   Input ~ 0
+Text GLabel 2500 2700 2    50   BiDi ~ 0
 A4
-Text GLabel 2500 2800 2    50   Input ~ 0
+Text GLabel 2500 2800 2    50   BiDi ~ 0
 A5
-Text GLabel 2500 2900 2    50   Input ~ 0
+Text GLabel 2500 2900 2    50   BiDi ~ 0
 A6
-Text GLabel 2500 3000 2    50   Input ~ 0
+Text GLabel 2500 3000 2    50   BiDi ~ 0
 A7
-Text GLabel 2500 3100 2    50   Input ~ 0
+Text GLabel 2500 3100 2    50   BiDi ~ 0
 A8
 Text GLabel 2500 3200 2    50   BiDi ~ 0
 A9
@@ -584,23 +584,23 @@ Text GLabel 2500 3700 2    50   BiDi ~ 0
 A14
 Text GLabel 2500 3800 2    50   BiDi ~ 0
 A15
-Text GLabel 3300 1600 0    50   Output ~ 0
+Text GLabel 3300 1600 0    50   BiDi ~ 0
 A0
-Text GLabel 3300 2250 0    50   Output ~ 0
+Text GLabel 3300 2250 0    50   BiDi ~ 0
 A1
-Text GLabel 3300 2900 0    50   Output ~ 0
+Text GLabel 3300 2900 0    50   BiDi ~ 0
 A2
-Text GLabel 3300 3550 0    50   Output ~ 0
+Text GLabel 3300 3550 0    50   BiDi ~ 0
 A3
-Text GLabel 3300 4200 0    50   Output ~ 0
+Text GLabel 3300 4200 0    50   BiDi ~ 0
 A4
-Text GLabel 3300 4850 0    50   Output ~ 0
+Text GLabel 3300 4850 0    50   BiDi ~ 0
 A5
-Text GLabel 4650 2250 0    50   Output ~ 0
+Text GLabel 4650 2250 0    50   BiDi ~ 0
 A6
-Text GLabel 4650 2900 0    50   Output ~ 0
+Text GLabel 4650 2900 0    50   BiDi ~ 0
 A7
-Text GLabel 4650 3550 0    50   Output ~ 0
+Text GLabel 4650 3550 0    50   BiDi ~ 0
 A8
 Text GLabel 4650 4200 0    50   BiDi ~ 0
 A9
