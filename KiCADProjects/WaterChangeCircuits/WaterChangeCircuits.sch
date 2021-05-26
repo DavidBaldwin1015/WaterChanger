@@ -1953,7 +1953,7 @@ F0 "PowerSupply" 50
 F1 "WCPowerSupply.sch" 50
 $EndSheet
 $Sheet
-S 850  750  1100 550 
+S 800  650  1100 550 
 U 60FF9D85
 F0 "AnalogConnections" 50
 F1 "Analog.sch" 50
@@ -2809,45 +2809,45 @@ D17
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 610D4CF8
-P 800 1550
-F 0 "H1" H 900 1596 50  0000 L CNN
-F 1 "MountingHole" H 900 1505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 800 1550 50  0001 C CNN
-F 3 "~" H 800 1550 50  0001 C CNN
-	1    800  1550
+P 650 1450
+F 0 "H1" H 750 1496 50  0000 L CNN
+F 1 "MountingHole" H 750 1405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 650 1450 50  0001 C CNN
+F 3 "~" H 650 1450 50  0001 C CNN
+	1    650  1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 610DEC91
-P 800 1850
-F 0 "H2" H 900 1896 50  0000 L CNN
-F 1 "MountingHole" H 900 1805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 800 1850 50  0001 C CNN
-F 3 "~" H 800 1850 50  0001 C CNN
-	1    800  1850
+P 10550 3550
+F 0 "H2" H 10650 3596 50  0000 L CNN
+F 1 "MountingHole" H 10650 3505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10550 3550 50  0001 C CNN
+F 3 "~" H 10550 3550 50  0001 C CNN
+	1    10550 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 610DFA3B
-P 800 2150
-F 0 "H3" H 900 2196 50  0000 L CNN
-F 1 "MountingHole" H 900 2105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 800 2150 50  0001 C CNN
-F 3 "~" H 800 2150 50  0001 C CNN
-	1    800  2150
+P 10500 6250
+F 0 "H3" H 10600 6296 50  0000 L CNN
+F 1 "MountingHole" H 10600 6205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10500 6250 50  0001 C CNN
+F 3 "~" H 10500 6250 50  0001 C CNN
+	1    10500 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 610E1423
-P 800 2500
-F 0 "H4" H 900 2546 50  0000 L CNN
-F 1 "MountingHole" H 900 2455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 800 2500 50  0001 C CNN
-F 3 "~" H 800 2500 50  0001 C CNN
-	1    800  2500
+P 600 7500
+F 0 "H4" H 700 7546 50  0000 L CNN
+F 1 "MountingHole" H 700 7455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 600 7500 50  0001 C CNN
+F 3 "~" H 600 7500 50  0001 C CNN
+	1    600  7500
 	1    0    0    -1  
 $EndComp
 $Comp
