@@ -3,7 +3,8 @@
 $json = file_get_contents('php://input');
 
 $data = json_decode($json, true);
-$PinType = $data['PinType'];
+$PinType = $data[1];
+echo $PinType;
 
 $con = mysqli_connect("127.0.0.1", "FormUser", "Plankt0n!", "WaterControls");
 
@@ -13,13 +14,8 @@ if(mysqli_connect_errno()){
 
 if($PinType == "Digital"){
 	$result = mysqli_query($con, "SELECT PinNum FROM Pins WHERE Pintype LIKE 'D' AND Used LIKE 0");
-	if(mysqli_num_rows($result) > 0){
-        while($row = mysqli_fetch_assoc($result)){
-                echo json_encode($row);
-		}
-	} else {
-                echo json_encode("0");
+	if($result){
+		echo json_encode($result);
 	}
-
 }
 ?> 
