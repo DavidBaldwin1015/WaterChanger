@@ -1,9 +1,6 @@
 <?php
 
-$json = file_get_contents('php://input');
-
-$data = json_decode($json, true);
-$PinType = $data['PinType'];
+$PinType = $_POST['PinType'];
 
 $con = mysqli_connect("127.0.0.1", "FormUser", "Plankt0n!", "WaterControls");
 
@@ -21,5 +18,7 @@ if($PinType == "Digital"){
                 echo json_encode("0");
 	}
 
+} else {
+	echo json_encode("Error 2");
 }
 ?> 

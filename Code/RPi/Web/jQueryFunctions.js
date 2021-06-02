@@ -19,10 +19,10 @@
                     console.log(len);
 
                     for(var i = 0; i < len; i++){
-                        var id = response[i]['PinNum'];
+                        var id = response[i]["PinNum"];
 
 
-                        $("#Pins").append($("<option>", {"value": response[i].PinNum, "text": response[i].PinNum}));
+                        $("#Pins").append($("<option>", {"value": id, "text": id}));
                     }
                 }
             })
