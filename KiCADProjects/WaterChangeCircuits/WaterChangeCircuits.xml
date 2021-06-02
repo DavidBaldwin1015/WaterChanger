@@ -1,0 +1,1992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/david/Documents/WaterChangeSystem/KiCADProjects/WaterChangeCircuits/WaterChangeCircuits.sch</source>
+    <date>Sat 29 May 2021 09:29:03 AM CDT</date>
+    <tool>Eeschema 5.1.10-88a1d61d58~88~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>WaterChangeCircuits.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PowerSupply/" tstamps="/60F231CD/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>WCPowerSupply.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/AnalogConnections/" tstamps="/60FF9D85/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Analog.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_01x25</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x25_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x25" description="Generic connector, single row, 01x25, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609D275F</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A9D60B</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A9D61D</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A9D62F</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A9D641</tstamp>
+    </comp>
+    <comp ref="U18">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A9D653</tstamp>
+    </comp>
+    <comp ref="U19">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A9D665</tstamp>
+    </comp>
+    <comp ref="U20">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A9D677</tstamp>
+    </comp>
+    <comp ref="U21">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A9D689</tstamp>
+    </comp>
+    <comp ref="U22">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A9D69B</tstamp>
+    </comp>
+    <comp ref="U23">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A9D6AD</tstamp>
+    </comp>
+    <comp ref="U24">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A9D6BF</tstamp>
+    </comp>
+    <comp ref="U25">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A9D6D1</tstamp>
+    </comp>
+    <comp ref="U26">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAD923</tstamp>
+    </comp>
+    <comp ref="U27">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAD935</tstamp>
+    </comp>
+    <comp ref="U28">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAD947</tstamp>
+    </comp>
+    <comp ref="U29">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAD959</tstamp>
+    </comp>
+    <comp ref="U30">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAD96B</tstamp>
+    </comp>
+    <comp ref="U31">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAD97D</tstamp>
+    </comp>
+    <comp ref="U32">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAD98F</tstamp>
+    </comp>
+    <comp ref="U33">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAD9A1</tstamp>
+    </comp>
+    <comp ref="U34">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAD9B3</tstamp>
+    </comp>
+    <comp ref="U35">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAD9C5</tstamp>
+    </comp>
+    <comp ref="U36">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAD9D7</tstamp>
+    </comp>
+    <comp ref="U37">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAD9E9</tstamp>
+    </comp>
+    <comp ref="U38">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB2A3B</tstamp>
+    </comp>
+    <comp ref="U39">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB2A4D</tstamp>
+    </comp>
+    <comp ref="U40">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB2A5F</tstamp>
+    </comp>
+    <comp ref="U41">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB2A71</tstamp>
+    </comp>
+    <comp ref="U42">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB2A83</tstamp>
+    </comp>
+    <comp ref="U43">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB2A95</tstamp>
+    </comp>
+    <comp ref="U44">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB2AA7</tstamp>
+    </comp>
+    <comp ref="U45">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB2AB9</tstamp>
+    </comp>
+    <comp ref="U46">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB2ACB</tstamp>
+    </comp>
+    <comp ref="U47">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB2ADD</tstamp>
+    </comp>
+    <comp ref="U48">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB2AEF</tstamp>
+    </comp>
+    <comp ref="U49">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB2B01</tstamp>
+    </comp>
+    <comp ref="J18">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C2CEFD</tstamp>
+    </comp>
+    <comp ref="J19">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C2CF09</tstamp>
+    </comp>
+    <comp ref="J20">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C2CF15</tstamp>
+    </comp>
+    <comp ref="J21">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C2CF21</tstamp>
+    </comp>
+    <comp ref="J29">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C383D5</tstamp>
+    </comp>
+    <comp ref="J30">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C383E1</tstamp>
+    </comp>
+    <comp ref="J31">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C383ED</tstamp>
+    </comp>
+    <comp ref="J32">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C383F9</tstamp>
+    </comp>
+    <comp ref="J33">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C38405</tstamp>
+    </comp>
+    <comp ref="J34">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C38411</tstamp>
+    </comp>
+    <comp ref="J35">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C3D77D</tstamp>
+    </comp>
+    <comp ref="J36">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C3D789</tstamp>
+    </comp>
+    <comp ref="J37">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C3D795</tstamp>
+    </comp>
+    <comp ref="J38">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C3D7A1</tstamp>
+    </comp>
+    <comp ref="J39">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C3D7AD</tstamp>
+    </comp>
+    <comp ref="J40">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C3D7B9</tstamp>
+    </comp>
+    <comp ref="J41">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E305B4</tstamp>
+    </comp>
+    <comp ref="J42">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E305C0</tstamp>
+    </comp>
+    <comp ref="J43">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E305CC</tstamp>
+    </comp>
+    <comp ref="J44">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E305D8</tstamp>
+    </comp>
+    <comp ref="J45">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E305E4</tstamp>
+    </comp>
+    <comp ref="J46">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E305F0</tstamp>
+    </comp>
+    <comp ref="J47">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E346FE</tstamp>
+    </comp>
+    <comp ref="J48">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E3470A</tstamp>
+    </comp>
+    <comp ref="J49">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E34716</tstamp>
+    </comp>
+    <comp ref="J50">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E34722</tstamp>
+    </comp>
+    <comp ref="J51">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E3472E</tstamp>
+    </comp>
+    <comp ref="J52">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E3473A</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC11A2</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC3B87</tstamp>
+    </comp>
+    <comp ref="J53">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E4295E</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B90CBD</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B8F34D</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B8D855</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B8BD65</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B2856D</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BF1CC6</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BF1CB4</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BF1CA2</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B55AC6</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D9E3A0</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B010F7</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A5D8C5</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A5C4F8</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A5C264</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TLP3542</value>
+      <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</datasheet>
+      <libsource lib="Relay_SolidState" part="TLP3542" description="Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609C24AB</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC4CC5</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC4CD7</tstamp>
+    </comp>
+    <comp ref="J74">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC4CE9</tstamp>
+    </comp>
+    <comp ref="J75">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F6AE07</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610D4CF8</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610DEC91</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610DFA3B</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610E1423</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x15</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x15" description="Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61467CEB</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x12</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x12" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61474E63</tstamp>
+    </comp>
+    <comp ref="J28">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C32031</tstamp>
+    </comp>
+    <comp ref="J27">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C32025</tstamp>
+    </comp>
+    <comp ref="J26">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C32019</tstamp>
+    </comp>
+    <comp ref="J25">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C3200D</tstamp>
+    </comp>
+    <comp ref="J24">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C32001</tstamp>
+    </comp>
+    <comp ref="J23">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C31FF5</tstamp>
+    </comp>
+    <comp ref="J22">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C2CF2D</tstamp>
+    </comp>
+    <comp ref="J55">
+      <value>Conn_02x02_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/PowerSupply/" tstamps="/60F231CD/"/>
+      <tstamp>60F2DCF3</tstamp>
+    </comp>
+    <comp ref="J56">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/PowerSupply/" tstamps="/60F231CD/"/>
+      <tstamp>60F35BFC</tstamp>
+    </comp>
+    <comp ref="J54">
+      <value>Barrel_Jack_Switch</value>
+      <footprint>Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/60F231CD/"/>
+      <tstamp>6102AE3F</tstamp>
+    </comp>
+    <comp ref="J57">
+      <value>Conn_01x16</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x16" description="Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/AnalogConnections/" tstamps="/60FF9D85/"/>
+      <tstamp>60FFDADF</tstamp>
+    </comp>
+    <comp ref="J69">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/AnalogConnections/" tstamps="/60FF9D85/"/>
+      <tstamp>60FFFE03</tstamp>
+    </comp>
+    <comp ref="J70">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/AnalogConnections/" tstamps="/60FF9D85/"/>
+      <tstamp>61002C52</tstamp>
+    </comp>
+    <comp ref="J71">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/AnalogConnections/" tstamps="/60FF9D85/"/>
+      <tstamp>610040D8</tstamp>
+    </comp>
+    <comp ref="J72">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/AnalogConnections/" tstamps="/60FF9D85/"/>
+      <tstamp>61004592</tstamp>
+    </comp>
+    <comp ref="J73">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/AnalogConnections/" tstamps="/60FF9D85/"/>
+      <tstamp>61004A0C</tstamp>
+    </comp>
+    <comp ref="J64">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/AnalogConnections/" tstamps="/60FF9D85/"/>
+      <tstamp>6101171B</tstamp>
+    </comp>
+    <comp ref="J65">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/AnalogConnections/" tstamps="/60FF9D85/"/>
+      <tstamp>6101172D</tstamp>
+    </comp>
+    <comp ref="J66">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/AnalogConnections/" tstamps="/60FF9D85/"/>
+      <tstamp>6101173F</tstamp>
+    </comp>
+    <comp ref="J67">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/AnalogConnections/" tstamps="/60FF9D85/"/>
+      <tstamp>61011751</tstamp>
+    </comp>
+    <comp ref="J68">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/AnalogConnections/" tstamps="/60FF9D85/"/>
+      <tstamp>61011763</tstamp>
+    </comp>
+    <comp ref="J59">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/AnalogConnections/" tstamps="/60FF9D85/"/>
+      <tstamp>61013F90</tstamp>
+    </comp>
+    <comp ref="J60">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/AnalogConnections/" tstamps="/60FF9D85/"/>
+      <tstamp>61013FA2</tstamp>
+    </comp>
+    <comp ref="J61">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/AnalogConnections/" tstamps="/60FF9D85/"/>
+      <tstamp>61013FB4</tstamp>
+    </comp>
+    <comp ref="J62">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/AnalogConnections/" tstamps="/60FF9D85/"/>
+      <tstamp>61013FC6</tstamp>
+    </comp>
+    <comp ref="J63">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/AnalogConnections/" tstamps="/60FF9D85/"/>
+      <tstamp>61013FD8</tstamp>
+    </comp>
+    <comp ref="J58">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/AnalogConnections/" tstamps="/60FF9D85/"/>
+      <tstamp>610245C1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x12">
+      <description>Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x15">
+      <description>Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x15</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x16">
+      <description>Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x25">
+      <description>Generic connector, single row, 01x25, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x25</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x02_Odd_Even">
+      <description>Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x02_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Relay_SolidState" part="TLP3542">
+      <description>Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6</description>
+      <docs>https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&amp;prodName=TLP3542</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLP3542</field>
+        <field name="Footprint">Package_DIP:DIP-5-6_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="NotConnected"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Relay_SolidState">
+      <uri>/usr/share/kicad/library/Relay_SolidState.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND1">
+      <node ref="J35" pin="2"/>
+      <node ref="J36" pin="2"/>
+      <node ref="J22" pin="2"/>
+      <node ref="J37" pin="2"/>
+      <node ref="J38" pin="2"/>
+      <node ref="J39" pin="2"/>
+      <node ref="J23" pin="2"/>
+      <node ref="J24" pin="2"/>
+      <node ref="J40" pin="2"/>
+      <node ref="J41" pin="2"/>
+      <node ref="J42" pin="2"/>
+      <node ref="J25" pin="2"/>
+      <node ref="J44" pin="2"/>
+      <node ref="J45" pin="2"/>
+      <node ref="J46" pin="2"/>
+      <node ref="J34" pin="2"/>
+      <node ref="J31" pin="2"/>
+      <node ref="J52" pin="2"/>
+      <node ref="J54" pin="3"/>
+      <node ref="J54" pin="2"/>
+      <node ref="J56" pin="2"/>
+      <node ref="J21" pin="2"/>
+      <node ref="J29" pin="2"/>
+      <node ref="J20" pin="2"/>
+      <node ref="J30" pin="2"/>
+      <node ref="J48" pin="2"/>
+      <node ref="J26" pin="2"/>
+      <node ref="J33" pin="2"/>
+      <node ref="J32" pin="2"/>
+      <node ref="J50" pin="2"/>
+      <node ref="J47" pin="2"/>
+      <node ref="J43" pin="2"/>
+      <node ref="J49" pin="2"/>
+      <node ref="J51" pin="2"/>
+      <node ref="J27" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J19" pin="2"/>
+      <node ref="J8" pin="2"/>
+      <node ref="J9" pin="2"/>
+      <node ref="J53" pin="2"/>
+      <node ref="J18" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J28" pin="2"/>
+    </net>
+    <net code="2" name="Main3">
+      <node ref="J9" pin="1"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="3" name="Main2">
+      <node ref="U4" pin="4"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="4" name="Main1">
+      <node ref="J7" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="5" name="Pump2">
+      <node ref="J6" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="6" name="GND2">
+      <node ref="U5" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U37" pin="2"/>
+      <node ref="U36" pin="2"/>
+      <node ref="J15" pin="3"/>
+      <node ref="U35" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J13" pin="3"/>
+      <node ref="U34" pin="2"/>
+      <node ref="J16" pin="3"/>
+      <node ref="J74" pin="3"/>
+      <node ref="J14" pin="3"/>
+      <node ref="U24" pin="2"/>
+      <node ref="J17" pin="3"/>
+      <node ref="U22" pin="2"/>
+      <node ref="U41" pin="2"/>
+      <node ref="U42" pin="2"/>
+      <node ref="U49" pin="2"/>
+      <node ref="U32" pin="2"/>
+      <node ref="U40" pin="2"/>
+      <node ref="U33" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U31" pin="2"/>
+      <node ref="J10" pin="3"/>
+      <node ref="U23" pin="2"/>
+      <node ref="U39" pin="2"/>
+      <node ref="J11" pin="3"/>
+      <node ref="U46" pin="2"/>
+      <node ref="J70" pin="3"/>
+      <node ref="U25" pin="2"/>
+      <node ref="J71" pin="3"/>
+      <node ref="J72" pin="3"/>
+      <node ref="U45" pin="2"/>
+      <node ref="J58" pin="3"/>
+      <node ref="U26" pin="2"/>
+      <node ref="J60" pin="3"/>
+      <node ref="U16" pin="2"/>
+      <node ref="J64" pin="3"/>
+      <node ref="U17" pin="2"/>
+      <node ref="J73" pin="3"/>
+      <node ref="U18" pin="2"/>
+      <node ref="U14" pin="2"/>
+      <node ref="J67" pin="3"/>
+      <node ref="J66" pin="3"/>
+      <node ref="U15" pin="2"/>
+      <node ref="J65" pin="3"/>
+      <node ref="U27" pin="2"/>
+      <node ref="J69" pin="3"/>
+      <node ref="J62" pin="3"/>
+      <node ref="U48" pin="2"/>
+      <node ref="U29" pin="2"/>
+      <node ref="U44" pin="2"/>
+      <node ref="U38" pin="2"/>
+      <node ref="U21" pin="2"/>
+      <node ref="J55" pin="4"/>
+      <node ref="J55" pin="3"/>
+      <node ref="J75" pin="3"/>
+      <node ref="U20" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="U47" pin="2"/>
+      <node ref="U30" pin="2"/>
+      <node ref="J59" pin="3"/>
+      <node ref="J68" pin="3"/>
+      <node ref="J63" pin="3"/>
+      <node ref="U43" pin="2"/>
+      <node ref="U19" pin="2"/>
+      <node ref="J61" pin="3"/>
+      <node ref="U28" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="7" name="D07">
+      <node ref="J1" pin="19"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="8" name="Pump1">
+      <node ref="J5" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="9" name="D08">
+      <node ref="J3" pin="1"/>
+      <node ref="J1" pin="20"/>
+    </net>
+    <net code="10" name="+5V">
+      <node ref="J16" pin="1"/>
+      <node ref="J65" pin="1"/>
+      <node ref="J17" pin="1"/>
+      <node ref="J74" pin="1"/>
+      <node ref="J72" pin="1"/>
+      <node ref="J69" pin="1"/>
+      <node ref="J66" pin="1"/>
+      <node ref="J75" pin="1"/>
+      <node ref="J67" pin="1"/>
+      <node ref="J59" pin="1"/>
+      <node ref="J70" pin="1"/>
+      <node ref="J63" pin="1"/>
+      <node ref="J71" pin="1"/>
+      <node ref="J62" pin="1"/>
+      <node ref="J55" pin="2"/>
+      <node ref="J55" pin="1"/>
+      <node ref="J68" pin="1"/>
+      <node ref="J64" pin="1"/>
+      <node ref="J11" pin="1"/>
+      <node ref="J15" pin="1"/>
+      <node ref="J14" pin="1"/>
+      <node ref="J10" pin="1"/>
+      <node ref="J58" pin="1"/>
+      <node ref="J60" pin="1"/>
+      <node ref="J73" pin="1"/>
+      <node ref="J13" pin="1"/>
+      <node ref="J61" pin="1"/>
+    </net>
+    <net code="11" name="D16">
+      <node ref="J1" pin="11"/>
+      <node ref="J74" pin="2"/>
+    </net>
+    <net code="12" name="D17">
+      <node ref="J1" pin="10"/>
+      <node ref="J75" pin="2"/>
+    </net>
+    <net code="13" name="D12">
+      <node ref="J1" pin="24"/>
+      <node ref="J11" pin="2"/>
+    </net>
+    <net code="14" name="D13">
+      <node ref="J10" pin="2"/>
+      <node ref="J1" pin="25"/>
+    </net>
+    <net code="15" name="D09">
+      <node ref="J1" pin="21"/>
+      <node ref="J15" pin="2"/>
+    </net>
+    <net code="16" name="D10">
+      <node ref="J14" pin="2"/>
+      <node ref="J1" pin="22"/>
+    </net>
+    <net code="17" name="D11">
+      <node ref="J13" pin="2"/>
+      <node ref="J1" pin="23"/>
+    </net>
+    <net code="18" name="+12V">
+      <node ref="U46" pin="6"/>
+      <node ref="U35" pin="6"/>
+      <node ref="U16" pin="6"/>
+      <node ref="U17" pin="6"/>
+      <node ref="U18" pin="6"/>
+      <node ref="U14" pin="6"/>
+      <node ref="U15" pin="6"/>
+      <node ref="U45" pin="6"/>
+      <node ref="U41" pin="6"/>
+      <node ref="U36" pin="6"/>
+      <node ref="U40" pin="6"/>
+      <node ref="U49" pin="6"/>
+      <node ref="U39" pin="6"/>
+      <node ref="U32" pin="6"/>
+      <node ref="U31" pin="6"/>
+      <node ref="U33" pin="6"/>
+      <node ref="U34" pin="6"/>
+      <node ref="U47" pin="6"/>
+      <node ref="U42" pin="6"/>
+      <node ref="U43" pin="6"/>
+      <node ref="U44" pin="6"/>
+      <node ref="J54" pin="1"/>
+      <node ref="J56" pin="1"/>
+      <node ref="U38" pin="6"/>
+      <node ref="U37" pin="6"/>
+      <node ref="U48" pin="6"/>
+      <node ref="U29" pin="6"/>
+      <node ref="U5" pin="6"/>
+      <node ref="U21" pin="6"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U28" pin="6"/>
+      <node ref="U27" pin="6"/>
+      <node ref="U22" pin="6"/>
+      <node ref="U26" pin="6"/>
+      <node ref="U25" pin="6"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U30" pin="6"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U20" pin="6"/>
+      <node ref="U24" pin="6"/>
+      <node ref="U23" pin="6"/>
+      <node ref="U19" pin="6"/>
+    </net>
+    <net code="19" name="D04">
+      <node ref="J1" pin="16"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="20" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="21" name="D03">
+      <node ref="U2" pin="1"/>
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="22" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="23" name="D14">
+      <node ref="J16" pin="2"/>
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="24" name="D15">
+      <node ref="J1" pin="12"/>
+      <node ref="J17" pin="2"/>
+    </net>
+    <net code="25" name="Net-(U5-Pad3)">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="26" name="D02">
+      <node ref="J1" pin="14"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="28" name="D06">
+      <node ref="U5" pin="1"/>
+      <node ref="J1" pin="18"/>
+    </net>
+    <net code="29" name="D05">
+      <node ref="J1" pin="17"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="30" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="31" name="Net-(U23-Pad3)">
+      <node ref="U23" pin="3"/>
+    </net>
+    <net code="32" name="D26">
+      <node ref="J1" pin="1"/>
+      <node ref="U22" pin="1"/>
+    </net>
+    <net code="33" name="Net-(U22-Pad3)">
+      <node ref="U22" pin="3"/>
+    </net>
+    <net code="34" name="T17">
+      <node ref="U22" pin="4"/>
+      <node ref="J26" pin="1"/>
+    </net>
+    <net code="35" name="D27">
+      <node ref="U23" pin="1"/>
+      <node ref="J2" pin="15"/>
+    </net>
+    <net code="36" name="T18">
+      <node ref="U23" pin="4"/>
+      <node ref="J27" pin="1"/>
+    </net>
+    <net code="37" name="D28">
+      <node ref="J2" pin="14"/>
+      <node ref="U24" pin="1"/>
+    </net>
+    <net code="38" name="Net-(U24-Pad3)">
+      <node ref="U24" pin="3"/>
+    </net>
+    <net code="39" name="T19">
+      <node ref="U24" pin="4"/>
+      <node ref="J28" pin="1"/>
+    </net>
+    <net code="40" name="Net-(U20-Pad3)">
+      <node ref="U20" pin="3"/>
+    </net>
+    <net code="41" name="D23">
+      <node ref="U19" pin="1"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="42" name="Net-(U19-Pad3)">
+      <node ref="U19" pin="3"/>
+    </net>
+    <net code="43" name="T14">
+      <node ref="U19" pin="4"/>
+      <node ref="J23" pin="1"/>
+    </net>
+    <net code="44" name="D24">
+      <node ref="U20" pin="1"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="45" name="T15">
+      <node ref="J24" pin="1"/>
+      <node ref="U20" pin="4"/>
+    </net>
+    <net code="46" name="D25">
+      <node ref="J1" pin="2"/>
+      <node ref="U21" pin="1"/>
+    </net>
+    <net code="47" name="Net-(U21-Pad3)">
+      <node ref="U21" pin="3"/>
+    </net>
+    <net code="48" name="T16">
+      <node ref="J25" pin="1"/>
+      <node ref="U21" pin="4"/>
+    </net>
+    <net code="49" name="D32">
+      <node ref="U28" pin="1"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="50" name="Net-(U28-Pad3)">
+      <node ref="U28" pin="3"/>
+    </net>
+    <net code="51" name="T23">
+      <node ref="J32" pin="1"/>
+      <node ref="U28" pin="4"/>
+    </net>
+    <net code="52" name="D33">
+      <node ref="U29" pin="1"/>
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="53" name="Net-(U29-Pad3)">
+      <node ref="U29" pin="3"/>
+    </net>
+    <net code="54" name="T24">
+      <node ref="J33" pin="1"/>
+      <node ref="U29" pin="4"/>
+    </net>
+    <net code="55" name="D34">
+      <node ref="U30" pin="1"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="56" name="Net-(U30-Pad3)">
+      <node ref="U30" pin="3"/>
+    </net>
+    <net code="57" name="T25">
+      <node ref="J34" pin="1"/>
+      <node ref="U30" pin="4"/>
+    </net>
+    <net code="58" name="D29">
+      <node ref="U25" pin="1"/>
+      <node ref="J2" pin="13"/>
+    </net>
+    <net code="59" name="Net-(U25-Pad3)">
+      <node ref="U25" pin="3"/>
+    </net>
+    <net code="60" name="D30">
+      <node ref="U26" pin="1"/>
+      <node ref="J2" pin="12"/>
+    </net>
+    <net code="61" name="Net-(U26-Pad3)">
+      <node ref="U26" pin="3"/>
+    </net>
+    <net code="62" name="D31">
+      <node ref="U27" pin="1"/>
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="63" name="Net-(U27-Pad3)">
+      <node ref="U27" pin="3"/>
+    </net>
+    <net code="64" name="T22">
+      <node ref="U27" pin="4"/>
+      <node ref="J31" pin="1"/>
+    </net>
+    <net code="65" name="D20">
+      <node ref="U16" pin="1"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="66" name="Net-(U16-Pad3)">
+      <node ref="U16" pin="3"/>
+    </net>
+    <net code="67" name="D21">
+      <node ref="U17" pin="1"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="68" name="Net-(U17-Pad3)">
+      <node ref="U17" pin="3"/>
+    </net>
+    <net code="69" name="D22">
+      <node ref="J1" pin="5"/>
+      <node ref="U18" pin="1"/>
+    </net>
+    <net code="70" name="Net-(U18-Pad3)">
+      <node ref="U18" pin="3"/>
+    </net>
+    <net code="71" name="T13">
+      <node ref="U18" pin="4"/>
+      <node ref="J22" pin="1"/>
+    </net>
+    <net code="72" name="D18">
+      <node ref="J1" pin="9"/>
+      <node ref="U14" pin="1"/>
+    </net>
+    <net code="73" name="Net-(U14-Pad3)">
+      <node ref="U14" pin="3"/>
+    </net>
+    <net code="74" name="D19">
+      <node ref="J1" pin="8"/>
+      <node ref="U15" pin="1"/>
+    </net>
+    <net code="75" name="Net-(U15-Pad3)">
+      <node ref="U15" pin="3"/>
+    </net>
+    <net code="76" name="Net-(U45-Pad3)">
+      <node ref="U45" pin="3"/>
+    </net>
+    <net code="77" name="T40">
+      <node ref="J49" pin="1"/>
+      <node ref="U45" pin="4"/>
+    </net>
+    <net code="78" name="D50">
+      <node ref="J12" pin="4"/>
+      <node ref="U46" pin="1"/>
+    </net>
+    <net code="79" name="Net-(U46-Pad3)">
+      <node ref="U46" pin="3"/>
+    </net>
+    <net code="80" name="T41">
+      <node ref="J50" pin="1"/>
+      <node ref="U46" pin="4"/>
+    </net>
+    <net code="81" name="D51">
+      <node ref="J12" pin="3"/>
+      <node ref="U47" pin="1"/>
+    </net>
+    <net code="82" name="Net-(U47-Pad3)">
+      <node ref="U47" pin="3"/>
+    </net>
+    <net code="83" name="T42">
+      <node ref="U47" pin="4"/>
+      <node ref="J51" pin="1"/>
+    </net>
+    <net code="84" name="D52">
+      <node ref="U48" pin="1"/>
+      <node ref="J12" pin="2"/>
+    </net>
+    <net code="85" name="T37">
+      <node ref="J46" pin="1"/>
+      <node ref="U42" pin="4"/>
+    </net>
+    <net code="86" name="D47">
+      <node ref="J12" pin="7"/>
+      <node ref="U43" pin="1"/>
+    </net>
+    <net code="87" name="Net-(U43-Pad3)">
+      <node ref="U43" pin="3"/>
+    </net>
+    <net code="88" name="T38">
+      <node ref="J47" pin="1"/>
+      <node ref="U43" pin="4"/>
+    </net>
+    <net code="89" name="D48">
+      <node ref="U44" pin="1"/>
+      <node ref="J12" pin="6"/>
+    </net>
+    <net code="90" name="Net-(U44-Pad3)">
+      <node ref="U44" pin="3"/>
+    </net>
+    <net code="91" name="T39">
+      <node ref="J48" pin="1"/>
+      <node ref="U44" pin="4"/>
+    </net>
+    <net code="92" name="D49">
+      <node ref="J12" pin="5"/>
+      <node ref="U45" pin="1"/>
+    </net>
+    <net code="93" name="T12">
+      <node ref="U17" pin="4"/>
+      <node ref="J21" pin="1"/>
+    </net>
+    <net code="94" name="T20">
+      <node ref="J29" pin="1"/>
+      <node ref="U25" pin="4"/>
+    </net>
+    <net code="95" name="T21">
+      <node ref="U26" pin="4"/>
+      <node ref="J30" pin="1"/>
+    </net>
+    <net code="96" name="Net-(U48-Pad3)">
+      <node ref="U48" pin="3"/>
+    </net>
+    <net code="97" name="T43">
+      <node ref="J52" pin="1"/>
+      <node ref="U48" pin="4"/>
+    </net>
+    <net code="98" name="D53">
+      <node ref="U49" pin="1"/>
+      <node ref="J12" pin="1"/>
+    </net>
+    <net code="99" name="Net-(U49-Pad3)">
+      <node ref="U49" pin="3"/>
+    </net>
+    <net code="100" name="T44">
+      <node ref="J53" pin="1"/>
+      <node ref="U49" pin="4"/>
+    </net>
+    <net code="101" name="T9">
+      <node ref="J18" pin="1"/>
+      <node ref="U14" pin="4"/>
+    </net>
+    <net code="102" name="T10">
+      <node ref="U15" pin="4"/>
+      <node ref="J19" pin="1"/>
+    </net>
+    <net code="103" name="T11">
+      <node ref="U16" pin="4"/>
+      <node ref="J20" pin="1"/>
+    </net>
+    <net code="104" name="D38">
+      <node ref="U34" pin="1"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="105" name="Net-(U34-Pad3)">
+      <node ref="U34" pin="3"/>
+    </net>
+    <net code="106" name="T29">
+      <node ref="U34" pin="4"/>
+      <node ref="J38" pin="1"/>
+    </net>
+    <net code="107" name="T28">
+      <node ref="U33" pin="4"/>
+      <node ref="J37" pin="1"/>
+    </net>
+    <net code="108" name="D39">
+      <node ref="U35" pin="1"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="109" name="Net-(U35-Pad3)">
+      <node ref="U35" pin="3"/>
+    </net>
+    <net code="110" name="T30">
+      <node ref="J39" pin="1"/>
+      <node ref="U35" pin="4"/>
+    </net>
+    <net code="111" name="D40">
+      <node ref="U36" pin="1"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="112" name="Net-(U36-Pad3)">
+      <node ref="U36" pin="3"/>
+    </net>
+    <net code="113" name="Net-(U42-Pad3)">
+      <node ref="U42" pin="3"/>
+    </net>
+    <net code="114" name="D35">
+      <node ref="U31" pin="1"/>
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="115" name="Net-(U31-Pad3)">
+      <node ref="U31" pin="3"/>
+    </net>
+    <net code="116" name="T26">
+      <node ref="U31" pin="4"/>
+      <node ref="J35" pin="1"/>
+    </net>
+    <net code="117" name="D36">
+      <node ref="U32" pin="1"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="118" name="Net-(U32-Pad3)">
+      <node ref="U32" pin="3"/>
+    </net>
+    <net code="119" name="T27">
+      <node ref="U32" pin="4"/>
+      <node ref="J36" pin="1"/>
+    </net>
+    <net code="120" name="D37">
+      <node ref="J2" pin="5"/>
+      <node ref="U33" pin="1"/>
+    </net>
+    <net code="121" name="Net-(U33-Pad3)">
+      <node ref="U33" pin="3"/>
+    </net>
+    <net code="122" name="T34">
+      <node ref="J43" pin="1"/>
+      <node ref="U39" pin="4"/>
+    </net>
+    <net code="123" name="D44">
+      <node ref="U40" pin="1"/>
+      <node ref="J12" pin="10"/>
+    </net>
+    <net code="124" name="Net-(U40-Pad3)">
+      <node ref="U40" pin="3"/>
+    </net>
+    <net code="125" name="T35">
+      <node ref="U40" pin="4"/>
+      <node ref="J44" pin="1"/>
+    </net>
+    <net code="126" name="D45">
+      <node ref="J12" pin="9"/>
+      <node ref="U41" pin="1"/>
+    </net>
+    <net code="127" name="Net-(U41-Pad3)">
+      <node ref="U41" pin="3"/>
+    </net>
+    <net code="128" name="T36">
+      <node ref="J45" pin="1"/>
+      <node ref="U41" pin="4"/>
+    </net>
+    <net code="129" name="D46">
+      <node ref="U42" pin="1"/>
+      <node ref="J12" pin="8"/>
+    </net>
+    <net code="130" name="T31">
+      <node ref="J40" pin="1"/>
+      <node ref="U36" pin="4"/>
+    </net>
+    <net code="131" name="D41">
+      <node ref="J2" pin="1"/>
+      <node ref="U37" pin="1"/>
+    </net>
+    <net code="132" name="Net-(U37-Pad3)">
+      <node ref="U37" pin="3"/>
+    </net>
+    <net code="133" name="T32">
+      <node ref="J41" pin="1"/>
+      <node ref="U37" pin="4"/>
+    </net>
+    <net code="134" name="Net-(U39-Pad3)">
+      <node ref="U39" pin="3"/>
+    </net>
+    <net code="135" name="D43">
+      <node ref="J12" pin="11"/>
+      <node ref="U39" pin="1"/>
+    </net>
+    <net code="136" name="T33">
+      <node ref="U38" pin="4"/>
+      <node ref="J42" pin="1"/>
+    </net>
+    <net code="137" name="Net-(U38-Pad3)">
+      <node ref="U38" pin="3"/>
+    </net>
+    <net code="138" name="D42">
+      <node ref="J12" pin="12"/>
+      <node ref="U38" pin="1"/>
+    </net>
+    <net code="139" name="A4">
+      <node ref="J57" pin="12"/>
+      <node ref="J62" pin="2"/>
+    </net>
+    <net code="140" name="A3">
+      <node ref="J57" pin="13"/>
+      <node ref="J61" pin="2"/>
+    </net>
+    <net code="141" name="A5">
+      <node ref="J57" pin="11"/>
+      <node ref="J63" pin="2"/>
+    </net>
+    <net code="142" name="A10">
+      <node ref="J57" pin="6"/>
+      <node ref="J68" pin="2"/>
+    </net>
+    <net code="143" name="A1">
+      <node ref="J59" pin="2"/>
+      <node ref="J57" pin="15"/>
+    </net>
+    <net code="144" name="A2">
+      <node ref="J60" pin="2"/>
+      <node ref="J57" pin="14"/>
+    </net>
+    <net code="145" name="A0">
+      <node ref="J58" pin="2"/>
+      <node ref="J57" pin="16"/>
+    </net>
+    <net code="146" name="A13">
+      <node ref="J57" pin="3"/>
+      <node ref="J71" pin="2"/>
+    </net>
+    <net code="147" name="A15">
+      <node ref="J57" pin="1"/>
+      <node ref="J73" pin="2"/>
+    </net>
+    <net code="148" name="A14">
+      <node ref="J57" pin="2"/>
+      <node ref="J72" pin="2"/>
+    </net>
+    <net code="149" name="A12">
+      <node ref="J70" pin="2"/>
+      <node ref="J57" pin="4"/>
+    </net>
+    <net code="150" name="A11">
+      <node ref="J69" pin="2"/>
+      <node ref="J57" pin="5"/>
+    </net>
+    <net code="151" name="A8">
+      <node ref="J66" pin="2"/>
+      <node ref="J57" pin="8"/>
+    </net>
+    <net code="152" name="A7">
+      <node ref="J65" pin="2"/>
+      <node ref="J57" pin="9"/>
+    </net>
+    <net code="153" name="A9">
+      <node ref="J67" pin="2"/>
+      <node ref="J57" pin="7"/>
+    </net>
+    <net code="154" name="A6">
+      <node ref="J64" pin="2"/>
+      <node ref="J57" pin="10"/>
+    </net>
+  </nets>
+</export>

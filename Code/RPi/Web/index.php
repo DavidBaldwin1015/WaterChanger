@@ -11,7 +11,11 @@
 		<li><a href="Flows.php"><div class="Tips"><span class="TipText">Flowmeters</span></div></a></li>
 		<li><a href="Manual.php"><div class="Tips"><span class="TipText">Manual Override</span></div></a></li>
 	</ul>
-	<div id="SystemStatus"></div>
+	<div id="SystemStatus">
+		
+		<? php
 
+		?>
+	</div>
 </body>
 </html>

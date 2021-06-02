@@ -86,6 +86,7 @@ void loop() {
       case 106:
         PORTH += 0x08;
         command = 0;
+        Serial.println("Received");
         break;
       //Skipping 107-117 because those are input pins
       case 118:
