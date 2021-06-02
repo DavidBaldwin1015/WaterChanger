@@ -3,7 +3,7 @@
 $json = file_get_contents('php://input');
 
 $data = json_decode($json);
-$PinType = $data -> PinType;
+$PinType = $data->PinType;
 
 $con = mysqli_connect("127.0.0.1", "FormUser", "Plankt0n!", "WaterControls");
 
