@@ -19,7 +19,7 @@ $sql->bind_param("ssssis", $Name, $Type, $IO, $InitStat, $Pin, $AD);
 if($sql->execute()===TRUE){
 	echo json_encode(array("Status"=>1));
 } else {
-	echo json_encode(array("Status"=>2))
+	echo json_encode(array("Status"=>2));
 }
 
 $con->close();
