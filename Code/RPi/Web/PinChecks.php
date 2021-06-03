@@ -23,7 +23,7 @@ if($PinType == "DigitalOut"){
 } else {
         echo json_encode("Error 2");
 }
-if($PinType == "DigitalOut"){
+if($PinType == "DigitalIn"){
         $result = mysqli_query($con, "SELECT PinNum FROM Pins WHERE Pintype LIKE 'D' AND Used LIKE 0 AND PinDir LIKE 'I'");
         if(mysqli_num_rows($result) > 0){
         while($row = mysqli_fetch_assoc($result)){

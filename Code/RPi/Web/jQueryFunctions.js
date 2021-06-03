@@ -170,7 +170,7 @@
             $.ajax({
                 type:"POST",
                 url:"PinChecks.php",
-                data: {PinType: "DigitalOut"}, //Send along some data for the script
+                data: {PinType: "DigitalIn"}, //Send along some data for the script
                 dataType: "json", //Define the datatype for the return
                 success: function(response){ //What to do if the request is successful
 
