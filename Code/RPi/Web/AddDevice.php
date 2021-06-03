@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, inital-scale=1.0">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="jQueryFunctions.js"></script>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="Styles.css">
 </head>
 <body>
 	<!--- Build the navigation menu --->
@@ -51,7 +51,7 @@
 		<label for="On">On</label>
 		<input type="radio" id="Off" name="Status" value="Off">
 		<label for="Off">Off</label><br>
-		<input type="submit" id="submit" text="Add Device">
+		<input type="button" id="submit" text="Add Device">
 	</form>
 	<div id="SuccessMessage">
 		<span> Device successfully added. </span>
