@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, inital-scale=1.0">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="jQueryFunctions.js"></script>
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 	<!--- Build the navigation menu --->
@@ -15,10 +16,11 @@
 		<li><a href="Flows.php"><div class="Tips"><span class="TipText">Flowmeters</span></div></a></li>
 		<li><a href="Manual.php"><div class="Tips"><span class="TipText">Manual Override</span></div></a></li>
 	</ul>
+	<div id="content">
 	<!--- Build the form to add a device --->
 	<form class="AddDeviceForm" id = "NewDeviceForm">
 		<label for="DeviceName">Device name:</label><br>
-		<input type="text" name="DeviceName"><br>
+		<input type="text" name="DeviceName" id="DevName"><br>
 		<!--- Take input as a drp down menu --->
 		<label for="DeviceType">Device type:</label><br>
 		<select name="DeviceType" id="DeviceTypeSelect" form="NewDeviceForm" required>
@@ -34,20 +36,26 @@
 		<input type="radio" name="AD" id="Analog" value = "Analog">
 		<label for="Analog">Analog</label>
 		<input type="radio" name="AD" id="Digital" value = "Digital">
-		<label for="Digital"></label><br>
+		<label for="Digital">Digital</label><br>
 		<p> Input or Output: </p><br>
 		<input type="radio" id="Input" name="InOut" value="Input">
 		<label for="Input">Input</label><br>
 		<input type="radio" id="Output" name="InOut" value="Output">
 		<label for="Output">Output</label><br>
+		<!---Set up an autopopulating dropdown menu for pin assignments --->
+		<p> Which pin will this be connected to? </p>
+		<select name="Pin" id="Pins" >
+		</select>
 		<p> Initial Status: </p><br>
 		<input type="radio" id="On" name="Status" value="On">
 		<label for="On">On</label>
 		<input type="radio" id="Off" name="Status" value="Off">
 		<label for="Off">Off</label><br>
-		<!---Set up an autopopulating dropdown menu for pin assignments --->
-		<select name="Pin" id="Pins" >
-		</select>
+		<input type="submit" id="submit" text="Add Device">
 	</form>
+	<div id="SuccessMessage">
+		<span> Device successfully added. </span>
+	</div>
+</div>
 </body>
 </html>

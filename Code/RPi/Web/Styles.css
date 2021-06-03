@@ -1,0 +1,86 @@
+#NavMenu {
+	margin: 0;
+	width: 50px;
+	padding:  0;
+	background-color: #808080;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+}
+
+#NavMenu a {
+	display: block;
+	color: black;
+	padding:  16px;
+	text-decoration: none;
+}
+
+#NavMenu a.active{
+	background-color: #808080;
+	color: white;
+
+}
+
+.Tips {
+	position:  relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+
+.Tips .TipText {
+	visibility:  hidden;
+	width: 120px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 1;
+	top: -5px;
+	left: 105%;
+}
+
+.Tips:hover .TipText {
+	visibility: visible;
+}
+
+#DashboardIcon {
+	width: 100%;
+	filter: invert(100%);
+}
+
+#SuccessMessage {
+	visibility: hidden;
+	background-color: #F1EBAB;
+}
+
+
+@media screen and (max-width: 700px){
+	#NavMenu {
+		width: 100%;
+		height:  auto;
+		position:  relative;
+	}
+
+	#NavMenu a {
+		float: left;
+	}
+	#content {
+		margin-left: 0;
+	}
+	.Tips .TipText {
+		width: 120px;
+		top: 100%;
+		left: 50%;
+		margin-left: -60px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#NavMenu a {
+		text-align: center;
+		float: none;
+	}
+}
+
