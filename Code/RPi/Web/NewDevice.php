@@ -21,9 +21,9 @@ $sql->execute();
 //Confirm the new record is there
 $result = mysqli_query($con, "SELECT idDevices FROM Devices WHERE DeviceName LIKE ".$Name." AND Pin LIKE ".$Pin);
 if(mysqli_num_rows($result) == 0){
-	echo json_encode(array("Status":2));
+	echo json_encode(array("Status"=>2));
 } else {
-	echo json_encode(array("Status":1));
+	echo json_encode(array("Status"=>1));
 }
 
 //Add code to mark pin in Pins table as used
