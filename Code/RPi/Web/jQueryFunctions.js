@@ -207,7 +207,7 @@
         var Stat = $("input:radio[name='Status']:checked").val();
         $.ajax({
             type: "POST",
-            url: "newDevice.php",
+            url: "NewDevice.php",
             data: {DevName: DevName, DevType: DevType, AD: AD, InOut: InOut, Pin: Pin, Stat: Stat},
             dataType: 'json',
             success: function(response){
