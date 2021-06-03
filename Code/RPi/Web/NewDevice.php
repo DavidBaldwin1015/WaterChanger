@@ -18,8 +18,8 @@ if(!$con){
 //$sql->bind_param("ssssis", $Name, $Type, $IO, $InitStat, $Pin, $AD);
 //$sql->execute();
 
-$sql = "INSERT INTO Devices (idDevices, DeviceName, DeviceType, Active, IO, Status, Pin, AD) VALUES (null, '".$Name."', '".$Type."', 1, '".$IO."', '".$InitStat."', ".$Pin.", '".$AD."')";
-if($con->query($sql)===TRUE){
+$sql = "INSERT INTO Devices (DeviceName, DeviceType, Active, IO, Status, Pin, AD) VALUES ('".$Name."', '".$Type."', 1, '".$IO."', '".$InitStat."', ".$Pin.", '".$AD."')";
+if($con->query($sql)==TRUE){
 	//Confirm the new record is there
 	$result = mysqli_query($con, "SELECT idDevices FROM Devices WHERE DeviceName LIKE ".$Name." AND Pin LIKE ".$Pin);
 	if(mysqli_num_rows($result) == 0){
