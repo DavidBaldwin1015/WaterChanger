@@ -10,7 +10,7 @@ if(mysqli_connect_errno()){
 
 header('Content-Type:application/json');
 if($PinType == "DigitalOut"){
-        $result = mysqli_query($con, "SELECT PinNum FROM Pins WHERE Pintype LIKE 'D' AND Used LIKE 0 AND PinDir LIKE 'O'");
+        $result = mysqli_query($con, "SELECT PinNum FROM Pins WHERE Pintype LIKE 'D' AND Used LIKE 0 AND (PinDir LIKE 'O' OR PinDir LIKE 'E')");
         if(mysqli_num_rows($result) > 0){
         while($row = mysqli_fetch_assoc($result)){
                 $Pin = $row['PinNum'];
@@ -21,7 +21,7 @@ if($PinType == "DigitalOut"){
         }
         echo json_encode($PinArray);
 } else if($PinType == "DigitalIn"){
-        $result = mysqli_query($con, "SELECT PinNum FROM Pins WHERE Pintype LIKE 'D' AND Used LIKE 0 AND PinDir LIKE 'I'");
+        $result = mysqli_query($con, "SELECT PinNum FROM Pins WHERE Pintype LIKE 'D' AND Used LIKE 0 AND (PinDir LIKE 'I' OR PinDir LIKE 'E')");
         if(mysqli_num_rows($result) > 0){
         while($row = mysqli_fetch_assoc($result)){
                 $Pin = $row['PinNum'];
@@ -32,7 +32,7 @@ if($PinType == "DigitalOut"){
         }
         echo json_encode($PinArray);
 } else if($PinType == "AnalogOut"){
-        $result = mysqli_query($con, "SELECT PinNum FROM Pins WHERE Pintype LIKE 'A' AND Used LIKE 0 AND PinDir LIKE 'O'");
+        $result = mysqli_query($con, "SELECT PinNum FROM Pins WHERE Pintype LIKE 'A' AND Used LIKE 0 AND (PinDir LIKE 'O' OR PinDir LIKE 'E')");
         if(mysqli_num_rows($result) > 0){
         while($row = mysqli_fetch_assoc($result)){
                 $Pin = $row['PinNum'];
@@ -43,7 +43,7 @@ if($PinType == "DigitalOut"){
         }
         echo json_encode($PinArray);
 } else if($PinType == "AnalogIn"){
-        $result = mysqli_query($con, "SELECT PinNum FROM Pins WHERE Pintype LIKE 'A' AND Used LIKE 0 AND PinDir LIKE 'I'");
+        $result = mysqli_query($con, "SELECT PinNum FROM Pins WHERE Pintype LIKE 'A' AND Used LIKE 0 AND (PinDir LIKE 'I' OR PinDir LIKE 'E')");
         if(mysqli_num_rows($result) > 0){
         while($row = mysqli_fetch_assoc($result)){
                 $Pin = $row['PinNum'];

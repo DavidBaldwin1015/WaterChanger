@@ -32,6 +32,9 @@ if($con->query($sql)==TRUE){
 }
 
 
+$PinUpdate = $con->prepare("UPDATE Pins SET Used=1, PinDir=? WHERE PinNum=? AND PinType=?");
+$PinUpdate->bind_param("sis", $IO, $Pin, $AD);
+$PinUpdate->execute();
 
 //Add code to mark pin in Pins table as used
 
