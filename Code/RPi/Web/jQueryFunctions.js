@@ -211,9 +211,9 @@
             data: {DevName: DevName, DevType: DevType, AD: AD, InOut: InOut, Pin: Pin, Stat: Stat},
             dataType: 'json',
             success: function(response){
-                var resp = response[1]['Status'];
+                var resp = response['Status'];
                 if(resp == 1){
-                    $("#SuccessMessage").fadeIn("slow");
+                    $("#SuccessMessage").prop("visibility", "visible");
                 }
             }
         })
