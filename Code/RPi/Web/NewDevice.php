@@ -34,19 +34,22 @@ if($IniStat == "On"){
 	$StatClean = 0;
 }
 
+$AddDevice = $con->prepare("INSERT INTO Devices (DeviceName, DeviceType, Active, IO, Status, Pin, AD) VALUES (?,?,1,?,?,?,?)");
+$AddDevice->bind_param("sssiis", $Name, $Type, $IOClean, $StatClean, $Pin, $ADClean);
+$AddDevice->execute();
 
-$sql = "INSERT INTO Devices (DeviceName, DeviceType, Active, IO, Status, Pin, AD) VALUES ('".$Name."', '".$Type."', 1, '".$IOClean."', '".$StatClean."', ".$Pin.", '".$ADClean."')";
-if($con->query($sql)==TRUE){
+//$sql = "INSERT INTO Devices (DeviceName, DeviceType, Active, IO, Status, Pin, AD) VALUES ('".$Name."', '".$Type."', 1, '".$IOClean."', '".$StatClean."', ".$Pin.", '".$ADClean."')";
+//if($con->query($sql)==TRUE){
 	//Confirm the new record is there
-	$result = mysqli_query($con, "SELECT idDevices FROM Devices WHERE DeviceName LIKE ".$Name." AND Pin LIKE ".$Pin);
+	$result = mysqli_query($con, "SELECT idDevices FROM Devices WHERE DeviceName LIKE '".$Name."' AND Pin LIKE ".$Pin);
 	if(mysqli_num_rows($result) == 0){
 		echo json_encode(array("Status"=>2));
 	} else {
 		echo json_encode(array("Status"=>1));
 	}
-} else {
-	echo json_encode(array("Status"=>3));
-}
+//} else {
+//	echo json_encode(array("Status"=>3));
+//}
 
 
 $PinUpdate = $con->prepare("UPDATE Pins SET Used=1, PinDir=? WHERE PinNum=? AND PinType=?");
