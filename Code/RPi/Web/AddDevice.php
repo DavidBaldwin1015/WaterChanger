@@ -10,12 +10,12 @@
 <body>
 	<!--- Build the navigation menu --->
 	<ul id="NavMenu">
-		<li><a href="index.php"><div class="Tips"><span class="TipText">Dashboard</span></div></a></li>
-		<li><a href="Tanks.php"><div class="Tips"><span class="TipText">Tanks and Valves</span></div></a></li>
-		<li><a href="Pumps.php"><div class="Tips"><span class="TipText">Pump Controls</span></div></a></li>
-		<li><a href="Flows.php"><div class="Tips"><span class="TipText">Flowmeters</span></div></a></li>
-		<li><a href="Manual.php"><div class="Tips"><span class="TipText">Manual Override</span></div></a></li>
-	</ul>
+		<li><a href="index.php"><img src="monitor-outline.png" id="DashboardIcon"/><div class="tooltip"><span class="tooltiptext">Dashboard</span></div></a></li>
+		<li><a href="Tanks.php"><div class="tooltip"><span class="tooltiptext">Tanks and Valves</span></div></a></li>
+		<li><a href="Pumps.php"><div class="tooltip"><span class="tooltiptext">Pump Controls</span></div></a></li>
+		<li><a href="Flows.php"><div class="tooltip"><span class="tooltiptext">Flowmeters</span></div></a></li>
+		<li><a href="Manual.php"><div class="tooltip"><span class="tooltiptext">Manual Override</span></div></a></li>
+	</ul><br>
 	<div id="content">
 	<!--- Build the form to add a device --->
 	<form class="AddDeviceForm" id = "NewDeviceForm">

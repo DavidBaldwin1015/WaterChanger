@@ -21,13 +21,13 @@
 
 }
 
-.Tips {
+.tooltip {
 	position:  relative;
 	display: inline-block;
 	border-bottom: 1px dotted black;
 }
 
-.Tips .TipText {
+.tooltip .tooltiptext {
 	visibility:  hidden;
 	width: 120px;
 	background-color: black;
@@ -41,7 +41,7 @@
 	left: 105%;
 }
 
-.Tips:hover .TipText {
+.tooltip:hover .tooltiptext {
 	visibility: visible;
 }
 
@@ -72,7 +72,7 @@
 	#content {
 		margin-left: 0;
 	}
-	.Tips .TipText {
+	.tooltip .tooltiptext {
 		width: 120px;
 		top: 100%;
 		left: 50%;
