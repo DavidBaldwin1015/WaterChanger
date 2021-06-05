@@ -1,5 +1,15 @@
  $(document).ready(function(){
         console.log("Script started"); //Debugging command, ensure the script starts
+        $.ajax({
+            type:'POST',
+            url: "CheckSettings.php",
+            data: {Fetch: "All"},
+            dataType: 'json',
+            success: function(response){
+                MultiplePumps = response['MultiplePumps'];
+                MasterSchedule = response['MasterSchedule'];
+            }
+        })
     $("#DeviceTypeSelect").on("change", function(){ //When the dropdown menu for type of device is changed
 
         var selected = $(this).val() //Gets which value is selected
@@ -218,6 +228,32 @@
             }
         })
     })
+
+    $(".PumpSwitch").on("click", function(){
+        var SwitchedID = $(this).attr("id");
+        console.log(Switched);
+
+        if($("#"+SwitchedID).prop("checked")){
+            if(MultiplePumps == 0){
+                $(".PumpSwitch:not(#"+SwitchedID+")").prop("checked", false);
+            }
+
+            $.ajax({
+                type:'POST',
+                url: 'SerialCommands.php',
+                data: {Pin: SwitchedID, Command: "PumpOn"},
+                dataType: 'json',
+                success: function(response){
+                    var resp = response['Status'];
+                    if(resp == 1){
+                        $("#SuccessMessage").prop("visibility", "visible");
+                    }
+                }
+            })
+        }
+
+    })
+
 
 }); 
 

@@ -10,11 +10,12 @@
 <body>
 	<!--- Build the navigation menu --->
 	<ul id="NavMenu">
-		<li><a href="index.php"><img src="monitor-outline.png" id="DashboardIcon"/><div class="tooltip"><span class="tooltiptext">Dashboard</span></div></a></li>
-		<li><a href="Tanks.php"><div class="tooltip"><span class="tooltiptext">Tanks and Valves</span></div></a></li>
-		<li><a href="Pumps.php"><div class="tooltip"><span class="tooltiptext">Pump Controls</span></div></a></li>
-		<li><a href="Flows.php"><div class="tooltip"><span class="tooltiptext">Flowmeters</span></div></a></li>
-		<li><a href="Manual.php"><div class="tooltip"><span class="tooltiptext">Manual Override</span></div></a></li>
+		<li><a href="index.php"><img src="monitor-outline.png" id="Icon"/><!-- <div class="tooltip"><span class="tooltiptext">Dashboard</span></div> --></a></li>
+		<li><a href="Tanks.php"><img src="valve.png" id="Icon"/><!-- <div class="tooltip"><span class="tooltiptext">Tanks and Valves</span></div> -->Tanks and Valves</a></li>
+		<li><a href="Pumps.php"><img src="water-pump.png" id="Icon"/><!-- <div class="tooltip"><span class="tooltiptext">Pump Controls</span></div> -->Pumps</a></li>
+		<li><a href="Flows.php"><img src="humidity.png" id="Icon"/><!-- <div class="tooltip"><span class="tooltiptext">Flowmeters</span></div> -->Sensors</a></li>
+		<!-- <li><a href="Manual.php"><div class="tooltip"><span class="tooltiptext">Manual Override</span></div> Manual Override</a></li> -->
+		<li><a href="Admin.php"><img src="double-wrench-outline.png" id="Icon"/> Administration </a></li>
 	</ul><br>
 	<div id="content">
 	<!--- Build the form to add a device --->
@@ -51,7 +52,7 @@
 		<label for="On">On</label>
 		<input type="radio" id="Off" name="Status" value="Off">
 		<label for="Off">Off</label><br>
-		<input type="button" id="submit" text="Add Device">
+		<input type="button" id="submit" value="Add device"> 
 	</form>
 	<div id="SuccessMessage">
 		<span> Device successfully added. </span>
