@@ -26,9 +26,9 @@
 				die("Connection failed: ".mysqli_connect_error());
 			}
 
-			$ErrorCodes = mysqli_query($con, "SELECT ErrorType, ErrorExp, ErrorSrc FROM Errors WHERE Resolved == 0");
-			if(mysqli_num_rows($ErrorCodes) > 0){
-				while($row = mysqli_fetch_assoc($Errors)){
+			$test = mysqli_query($con, "SELECT ErrorType, ErrorExp, ErrorSrc FROM Errors WHERE Resolved == 0");
+			if(mysqli_num_rows($test) > 0){
+				while($row = mysqli_fetch_assoc($test)){
 					echo "<div class='Error'>";
 					echo "<span class='exit' onclick='this.parentElement.style.display='none';'>&times;</span>";
 					echo "Error ".$row['ErrorType'].": ".$row['ErrorExp']." from ".$row['ErrorSrc'].".";
@@ -40,6 +40,7 @@
 				echo "No errors. All systems functioning.";
 				echo "</div>";
 			}
+			$con -> close();
 		?>
 	</div>
 

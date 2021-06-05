@@ -45,6 +45,7 @@
 					echo "</tr>";
 				}
 			}
+			$con->close();
 		?>
 
 </body>
