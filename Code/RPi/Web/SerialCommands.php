@@ -31,7 +31,7 @@ function PumpEnable($PinNum){
 	}
 
 	$Command = $PinNum+300;
-	exec("./PassCommands.sh ".$Command);
+	exec("python3 ./SerialControl.py ".$Command);
 
 }
 ?>

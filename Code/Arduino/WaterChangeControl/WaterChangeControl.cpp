@@ -101,8 +101,8 @@ void loop() {
    */
     }
 
-    commandClass = command/100;
-    SubCommand = command-(commandClass*100);
+    int commandClass = command/100;
+    int SubCommand = command-(commandClass*100);
 
     if(commandClass == 1){
 
