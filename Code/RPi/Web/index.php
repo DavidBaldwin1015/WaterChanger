@@ -26,8 +26,8 @@
 				die("Connection failed: ".mysqli_connect_error());
 			}
 
-			$Errors = mysqli_query($con, "SELECT ErrorType, ErrorExp, ErrorSrc FROM Errors WHERE Resolved == 0");
-			if(mysqli_num_rows($Errors)>0){
+			$ErrorCodes = mysqli_query($con, "SELECT ErrorType, ErrorExp, ErrorSrc FROM Errors WHERE Resolved == 0");
+			if(mysqli_num_rows($ErrorCodes) > 0){
 				while($row = mysqli_fetch_assoc($Errors)){
 					echo "<div class='Error'>";
 					echo "<span class='exit' onclick='this.parentElement.style.display='none';'>&times;</span>";
@@ -42,7 +42,7 @@
 			}
 		?>
 	</div>
-	
+
 </div>
 </body>
 <foot>
