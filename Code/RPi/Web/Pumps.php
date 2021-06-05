@@ -27,7 +27,7 @@
 			}
 
 			$pumps = mysqli_query($con, "SELECT DeviceName, Status, Pin FROM Devices WHERE DeviceType == 'Pump' AND Active == 1");
-			if(mysqli_num_rows($pumps) > 0){
+			if($pumps){
 				echo "<table border=0>
 				<tr>
 				<th> Pump </th>

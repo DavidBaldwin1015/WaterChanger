@@ -27,18 +27,18 @@
 			}
 
 			$test = mysqli_query($con, "SELECT ErrorType, ErrorExp, ErrorSrc FROM Errors WHERE Resolved == 0");
-			if(mysqli_num_rows($test) > 0){
+			if(!$test || mysqli_num_rows($test)==0){
+				echo "<div class='NoErrors'>";
+				echo "<span class='exit' onclick='this.parentElement.style.display='none';'>&times;</span>";
+				echo "No errors. All systems functioning.";
+				echo "</div>";				
+			} else {				
 				while($row = mysqli_fetch_assoc($test)){
 					echo "<div class='Error'>";
 					echo "<span class='exit' onclick='this.parentElement.style.display='none';'>&times;</span>";
 					echo "Error ".$row['ErrorType'].": ".$row['ErrorExp']." from ".$row['ErrorSrc'].".";
 					echo "</div>";
 				}
-			} else {
-				echo "<div class='NoErrors'>";
-				echo "<span class='exit' onclick='this.parentElement.style.display='none';'>&times;</span>";
-				echo "No errors. All systems functioning.";
-				echo "</div>";
 			}
 			$con -> close();
 		?>
