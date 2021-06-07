@@ -3,6 +3,7 @@ include('config.php');
 
 $Command = $_POST['Command'];
 $Pin = $_POST['Pin'];
+$MultiplePumps = 0;
 
 $con = mysqli_connect($host, $username, $password, $database);
 
@@ -11,7 +12,7 @@ if(!$con){
 }
 
 $Settings = mysqli_query($con, "SELECT Enabled FROM Settings WHERE Setting LIKE 'MultiplePumps'");
-if(mysqli_num_rows($Settings)>0){
+if($Settings)){
 	while($row = mysqli_fetch_assoc($Settings)){
 		$MultiplePumps = $row['Enabled'];
 	}
@@ -19,14 +20,14 @@ if(mysqli_num_rows($Settings)>0){
 
 switch($Command){
 	case "PumpEn":
-		PumpEnable($Pin);
+		PumpEnable($Pin, $con, $MultiplePumps);
 		PumpOn();
 		sleep(5);
 		PumpOff();
 		break;
 }
 
-function PumpEnable($PinNum){
+function PumpEnable($PinNum, $con, $pumps){
 	$OnQuery = mysqli_query($con, "UPDATE Devices SET Status=1 WHERE Pin==".$PinNum);
 
 	if($MultiplePumps == 0){
