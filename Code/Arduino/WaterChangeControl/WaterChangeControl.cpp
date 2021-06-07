@@ -4,8 +4,8 @@
 #include <avr/delay.h> //Call in the AVR/delay library
 #include <Arduino.h> //Call in the Arduino library
 
-int incomingByte = 0;
-int incoming[3];
+//int incomingByte = 0;
+//int incoming[3];
 
 int command = 0;
 int ActivePump = 1;
@@ -21,7 +21,7 @@ void setup() {
   DDRD = 0x8F;
   DDRE = 0x38;
   DDRG = 0x27;
-  DDRH = 0x08;
+  DDRH = _BV(3);
   DDRJ = 0x00;
   DDRL = 0xFF;
 
@@ -53,32 +53,32 @@ int ActivatePump(){
   }
 
   if(ActivePump == 1){
-    PORTE += 0x10;
+    PORTE |= _BV(4);
     return 0;
   } else {
-    PORTE += 0x20;
+    PORTE |= _BV(5);
     return 0;
   }
 }
 
 void StopPump(){
   if(ActivePump == 1){
-    PORTE -= 0x10;
+    PORTE &= ~_BV(4);
   } else {
-    PORTE -= 0x20;
+    PORTE &= ~_BV(5);
   }
 }
 
 void OpenMains(){
-  PORTG += 0x20;
-  PORTE += 0x08;
-  PORTH += 0x08;
+  PORTG |= _BV(5);
+  PORTE |= _BV(3);
+  PORTH |= _BV(3);
 }
 
 void CloseMains(){
-  PORTG -= 0x20;
-  PORTE -= 0x08;
-  PORTH -= 0x08;
+  PORTG &= ~_BV(5);
+  PORTE &= ~_BV(3);
+  PORTH &= ~_BV(3);
 }
 
 void loop() {
@@ -109,169 +109,169 @@ void loop() {
 
       switch(SubCommand){
         case 02:
-          PORTE += 0x10;
+          PORTE |= _BV(4);
           command = 0;
           break;
         case 03:
-          PORTE += 0x20;
+          PORTE |= _BV(5);
           command = 0;
           break;
         case 04:
-          PORTG += 0x20;
+          PORTG |= _BV(5);
           command = 0;
           break;
         case 05:
-          PORTE += 0x08;
+          PORTE |= _BV(3);
           command = 0;
           break;
         case 06:
-          PORTH += 0x08;
+          PORTH |= _BV(3);
           command = 0;
           Serial.println("Received");
           break;
         //Skipping 107-117 because those are input pins
         case 18:
-          PORTD += 0x08;
+          PORTD |= _BV(3);
           command = 0;
           break;
         case 19:
-          PORTD += 0x04;
+          PORTD |= _BV(2);
           command = 0;
           break;
         case 20:
-          PORTD +=0x02;
+          PORTD |= _BV(1);
           command = 0;
           break;
         case 21:
-          PORTD += 0x01;
+          PORTD |= _BV(0);
           command = 0;
           break;
         case 22:
-          PORTA += 0x01;
+          PORTA |= _BV(0);
           command = 0;
           break;
         case 23:
-          PORTA +=0x02;
+          PORTA |= _BV(1);
           command = 0;
           break;
         case 24:
-          PORTA += 0x04;
+          PORTA |= _BV(2);
           command = 0;
           break;
         case 25:
-          PORTA += 0x08;
+          PORTA |= _BV(3);
           command = 0;
           break;
         case 26:
-          PORTA += 0x10;
+          PORTA |= _BV(4);
           command = 0;
           break;
         case 27:
-          PORTA += 0x20;
+          PORTA |= _BV(5);
           command = 0;
           break;
         case 28:
-          PORTA += 0x40;
+          PORTA |= _BV(6);
           command = 0;
           break;
         case 29:
-          PORTA += 0x80;
+          PORTA |= _BV(7);
           command = 0;
           break;
         case 30:
-          PORTC += 0x80;
+          PORTC |= _BV(7);
           command = 0;
           break;
         case 31:
-          PORTC += 0x40;
+          PORTC |= _BV(6);
           command = 0;
           break;
         case 32:
-          PORTC += 0x20;
+          PORTC |= _BV(5);
           command = 0;
           break;
         case 33:
-          PORTC += 0x10;
+          PORTC |= _BV(4);
           command = 0;
           break;
         case 34:
-          PORTC += 0x08;
+          PORTC |= _BV(3);
           command = 0;
           break;
         case 35:
-          PORTC += 0x04;
+          PORTC |= _BV(2);
           command = 0;
           break;
         case 36:
-          PORTC +=0x02;
+          PORTC |= _BV(1);
           command = 0;
           break;
         case 37:
-          PORTC += 0x01;
+          PORTC |= _BV(0);
           command = 0;
           break;
         case 38:
-          PORTD += 0x80;
+          PORTD |= _BV(7);
           command = 0;
           break;
         case 39:
-          PORTG += 0x04;
+          PORTG |= _BV(2);
           command = 0;
           break;
         case 40:
-          PORTG +=0x02;
+          PORTG |= _BV(1);
           command = 0;
           break;
         case 41:
-          PORTG += 0x01;
+          PORTG |= _BV(0);
           command = 0;
           break;
         case 42:
-          PORTL += 0x80;
+          PORTL |= _BV(7);
           command = 0;
           break;
         case 43:
-          PORTL += 0x40;
+          PORTL |= _BV(6);
           command = 0;
           break;
         case 44:
-          PORTL += 0x20;
+          PORTL |= _BV(5);
           command = 0;
           break;
         case 45:
-          PORTL += 0x10;
+          PORTL |= _BV(4);
           command = 0;
           break;
         case 46:
-          PORTL += 0x08;
+          PORTL |= _BV(3);
           command = 0;
           break;
         case 47:
-          PORTL += 0x04;
+          PORTL |= _BV(2);
           command = 0;
           break;
         case 48:
-          PORTL +=0x02;
+          PORTL = PORTL | _BV(1);
           command = 0;
           break;
         case 49:
-          PORTL += 0x01;
+          PORTL |= _BV(0);
           command = 0;
           break;
         case 50:
-          PORTB += 0x08;
+          PORTB |= _BV(3);
           command = 0;
           break;
         case 51:
-          PORTB += 0x04;
+          PORTB |= _BV(2);
           command = 0;
           break;
         case 52:
-          PORTB +=0x02;
+          PORTB |= _BV(1);
           command = 0;
           break;
         case 53:
-          PORTB += 0x01;
+          PORTB |= _BV(0);
           command = 0;
           break;
       }
@@ -281,168 +281,168 @@ void loop() {
 
       switch(SubCommand){
         case 02:
-          PORTE -= 0x10;
+          PORTE &= ~_BV(4);
           command = 0;
           break;
         case 03:
-          PORTE -= 0x20;
+          PORTE &= ~_BV(5);
           command = 0;
           break;
         case 04:
-          PORTG -= 0x20;
+          PORTG &= ~_BV(5);
           command = 0;
           break;
         case 05:
-          PORTE -= 0x08;
+          PORTE &= ~_BV(3);
           command = 0;
           break;
         case 06:
-          PORTH -= 0x08;
+          PORTH &= ~_BV(3);
           command = 0;
           break;
         //Skipping 207-217 because those are input pins
         case 18:
-          PORTD -= 0x08;
+          PORTD &= ~_BV(3);
           command = 0;
           break;
         case 19:
-          PORTD -= 0x04;
+          PORTD &= ~_BV(2);
           command = 0;
           break;
         case 20:
-          PORTD -=0x02;
+          PORTD &= ~_BV(1);
           command = 0;
           break;
         case 21:
-          PORTD -= 0x01;
+          PORTD &= ~_BV(0);
           command = 0;
           break;
         case 22:
-          PORTA -= 0x01;
+          PORTA &= ~_BV(0);
           command = 0;
           break;
         case 23:
-          PORTA -=0x02;
+          PORTA -=_BV(1);
           command = 0;
           break;
         case 24:
-          PORTA -= 0x04;
+          PORTA &= ~_BV(2);
           command = 0;
           break;
         case 25:
-          PORTA -= 0x08;
+          PORTA &= ~_BV(3);
           command = 0;
           break;
         case 26:
-          PORTA -= 0x10;
+          PORTA &= ~_BV(4);
           command = 0;
           break;
         case 27:
-          PORTA -= 0x20;
+          PORTA &= ~_BV(5);
           command = 0;
           break;
         case 28:
-          PORTA -= 0x40;
+          PORTA &= ~_BV(6);
           command = 0;
           break;
         case 29:
-          PORTA -= 0x80;
+          PORTA &= ~_BV(7);
           command = 0;
           break;
         case 30:
-          PORTC -= 0x80;
+          PORTC &= ~_BV(7);
           command = 0;
           break;
         case 31:
-          PORTC -= 0x40;
+          PORTC &= ~_BV(6);
           command = 0;
           break;
         case 32:
-          PORTC -= 0x20;
+          PORTC &= ~_BV(5);
           command = 0;
           break;
         case 33:
-          PORTC -= 0x10;
+          PORTC &= ~_BV(4);
           command = 0;
           break;
         case 34:
-          PORTC -= 0x08;
+          PORTC &= ~_BV(3);
           command = 0;
           break;
         case 35:
-          PORTC -= 0x04;
+          PORTC &= ~_BV(2);
           command = 0;
           break;
         case 36:
-          PORTC -=0x02;
+          PORTC -=_BV(1);
           command = 0;
           break;
         case 37:
-          PORTC -= 0x01;
+          PORTC &= ~_BV(0);
           command = 0;
           break;
         case 38:
-          PORTD -= 0x80;
+          PORTD &= ~_BV(7);
           command = 0;
           break;
         case 39:
-          PORTG -= 0x04;
+          PORTG &= ~_BV(2);
           command = 0;
           break;
         case 40:
-          PORTG -=0x02;
+          PORTG -=_BV(1);
           command = 0;
           break;
         case 41:
-          PORTG -= 0x01;
+          PORTG &= ~_BV(0);
           command = 0;
           break;
         case 42:
-          PORTL -= 0x80;
+          PORTL &= ~_BV(7);
           command = 0;
           break;
         case 43:
-          PORTL -= 0x40;
+          PORTL &= ~_BV(6);
           command = 0;
           break;
         case 44:
-          PORTL -= 0x20;
+          PORTL &= ~_BV(5);
           command = 0;
           break;
         case 45:
-          PORTL -= 0x10;
+          PORTL &= ~_BV(4);
           command = 0;
           break;
         case 46:
-          PORTL -= 0x08;
+          PORTL &= ~_BV(3);
           command = 0;
           break;
         case 47:
-          PORTL -= 0x04;
+          PORTL &= ~_BV(2);
           command = 0;
           break;
         case 48:
-          PORTL -=0x02;
+          PORTL &= ~_BV(1);
           command = 0;
           break;
         case 49:
-          PORTL -= 0x01;
+          PORTL &= ~_BV(0);
           command = 0;
           break;
         case 50:
-          PORTB -= 0x08;
+          PORTB &= ~_BV(3);
           command = 0;
           break;
         case 51:
-          PORTB -= 0x04;
+          PORTB &= ~_BV(2);
           command = 0;
           break;
         case 52:
-          PORTB -=0x02;
+          PORTB -=_BV(1);
           command = 0;
           break;
         case 53:
-          PORTB -= 0x01;
+          PORTB &= ~_BV(0);
           command = 0;
           break;
       }
@@ -461,7 +461,7 @@ void loop() {
           int errorCheck = ActivatePump();
           if(errorCheck == 0){
             OpenMains();
-            PORTD += 0x08;
+            PORTD |= _BV(3);
             command = 0;
             break;
           } else {
@@ -504,7 +504,7 @@ void loop() {
         case 52:
         case 53:
         case 54:
-          PORTD -= 0x08;
+          PORTD &= ~_BV(3);
           CloseMains();
           StopPump();
           break;
@@ -522,7 +522,10 @@ void loop() {
       switch(SubCommand){
 
       }
-    }/*case 400:
+    }
+    commandClass = 0;
+    SubCommand = 0;
+    /*case 400:
         int initalRead; 
         initialRead = analogRead(A0);
         Serial.println(initialRead);
