@@ -1,4 +1,6 @@
  $(document).ready(function(){
+        var MasterSchedule = 0;
+        var MultiplePumps = 0;
         console.log("Script started"); //Debugging command, ensure the script starts
         $.ajax({
             type:'POST',
