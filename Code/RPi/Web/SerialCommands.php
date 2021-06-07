@@ -18,8 +18,11 @@ if(mysqli_num_rows($Settings)>0){
 }
 
 switch($Command){
-	case "PumpOn":
+	case "PumpEn":
 		PumpEnable($Pin);
+		PumpOn();
+		sleep(5);
+		PumpOff();
 		break;
 }
 
@@ -33,5 +36,15 @@ function PumpEnable($PinNum){
 	$Command = $PinNum+300;
 	exec("python3 ./SerialControl.py ".$Command);
 
+}
+
+function PumpOn(){
+	$Command = 304;
+	exec("python3 ./SerialControl.py ".$Command);
+}
+
+function PumpOff(){
+	$Command = 305;
+	exec("python3 ./SerialControl.py ".$Command);
 }
 ?>

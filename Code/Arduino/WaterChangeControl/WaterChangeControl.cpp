@@ -21,7 +21,7 @@ void setup() {
   DDRD = 0x8F;
   DDRE = 0x38;
   DDRG = 0x27;
-  DDRH = _BV(3);
+  DDRH = 0x08;
   DDRJ = 0x00;
   DDRL = 0xFF;
 
@@ -46,7 +46,7 @@ void setup() {
 }*/
 
 int ActivatePump(){
-  if((PINB4 && ActivePump == 1) || (PINB5 && ActivePump == 2)){
+  if((PINH4 && ActivePump == 1) || (PINH5 && ActivePump == 2)){
 
     error = 1;
     return 1;
@@ -456,6 +456,18 @@ void loop() {
           break;
         case 03:
           ActivePump = 2;
+          break;
+        case 04:
+          ActivatePump();
+          break;
+        case 05:
+          StopPump();
+          break;
+        case 06:
+          OpenMains();
+          break;
+        case 07:
+          CloseMains();
           break;
         case 18:
           int errorCheck = ActivatePump();

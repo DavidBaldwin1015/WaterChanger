@@ -241,7 +241,7 @@
             $.ajax({
                 type:'POST',
                 url: 'SerialCommands.php',
-                data: {Pin: SwitchedID, Command: "PumpOn"},
+                data: {Pin: SwitchedID, Command: "PumpEn"},
                 dataType: 'json',
                 success: function(response){
                     var resp = response['Status'];
