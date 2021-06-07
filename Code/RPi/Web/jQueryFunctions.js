@@ -231,7 +231,7 @@
 
     $(".PumpSwitch").on("click", function(){
         var SwitchedID = $(this).attr("id");
-        console.log(Switched);
+        console.log(SwitchedID);
 
         if($("#"+SwitchedID).prop("checked")){
             if(MultiplePumps == 0){
