@@ -28,10 +28,10 @@ switch($Command){
 }
 
 function PumpEnable($PinNum, $con, $pumps){
-	$OnQuery = mysqli_query($con, "UPDATE Devices SET Status=1 WHERE Pin==".$PinNum);
+	$OnQuery = mysqli_query($con, "UPDATE Devices SET Status=1 WHERE Pin=".$PinNum);
 
 	if($pumps == 0){
-		$OffQuery = mysqli_query($con, "UPDATE Devices SET Status=0 WHERE Pin!=".$PinNum." AND DeviceType LIKE 'Pump'");
+		$OffQuery = mysqli_query($con, "UPDATE Devices SET Status=0 WHERE Pin<>".$PinNum." AND DeviceType LIKE 'Pump'");
 	}
 
 	$Command = $PinNum+300;
