@@ -26,7 +26,7 @@
 				die("Connection failed: ".mysqli_connect_error());
 			}
 
-			$pumps = mysqli_query($con, "SELECT DeviceName, Status, Pin FROM Devices WHERE DeviceType == 'Pump' AND Active == 1");
+			$pumps = mysqli_query($con, "SELECT DeviceName, Status, Pin FROM Devices WHERE DeviceType = 'Pump' AND Active = 1");
 			if($pumps){
 				echo "<table border=0>
 				<tr>
