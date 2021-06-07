@@ -12,7 +12,7 @@ if(!$con){
 }
 
 $Settings = mysqli_query($con, "SELECT Enabled FROM Settings WHERE Setting LIKE 'MultiplePumps'");
-if($Settings)){
+if($Settings){
 	while($row = mysqli_fetch_assoc($Settings)){
 		$MultiplePumps = $row['Enabled'];
 	}
