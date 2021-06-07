@@ -85,11 +85,11 @@ void loop() {
   if(Serial.available()){
 
     char First = Serial.read();
-    // Serial.println(First); Debugging for serial communication
+    Serial.println(First); //Debugging for serial communication
     if(First >= '0' && First <= '9'){
-        command = (command*10)+(First-48);
-      } /* code for debugging the serial communication
-      
+        command = (command*10)+(First-48); 
+      } /*code for debugging the serial communication
+
       else if(First == 10){ 
 
         Serial.print("Command received: ");
@@ -97,8 +97,7 @@ void loop() {
         }
 
     Serial.print("Command received: ");
-    Serial.println(command);
-   */
+    Serial.println(command);*/
     }
 
     int commandClass = command/100;
