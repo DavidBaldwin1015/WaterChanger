@@ -6,8 +6,8 @@
             data: {Fetch: "All"},
             dataType: 'json',
             success: function(response){
-                MultiplePumps = response['MultiplePumps'];
-                MasterSchedule = response['MasterSchedule'];
+                MultiplePumps = response['MultiplePumps']['Enabled'];
+                MasterSchedule = response['MasterSchedule']['Enabled'];
             }
         })
     $("#DeviceTypeSelect").on("change", function(){ //When the dropdown menu for type of device is changed

@@ -13,7 +13,7 @@ if(!$con){
 $Settings = mysqli_query($con, "SELECT Enabled FROM Settings WHERE Setting LIKE 'MultiplePumps'");
 if(mysqli_num_rows($Settings)>0){
 	while($row = mysqli_fetch_assoc($Settings)){
-		$MultiplePumps = $row['MultiplePumps'];
+		$MultiplePumps = $row['Enabled'];
 	}
 }
 
@@ -47,4 +47,6 @@ function PumpOff(){
 	$Command = 305;
 	exec("python3 ./SerialControl.py ".$Command);
 }
+
+$con->close();
 ?>
