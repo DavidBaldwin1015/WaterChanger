@@ -28,17 +28,20 @@ function PumpEnable($PinNum, $con, $pumps){
 	}
 
 	$Command = $PinNum+300;
-	shell_exec("python3 ./SerialControl.py ".$Command);
+	$Output = shell_exec("python3 ./SerialControl.py ".$Command);
+	echo $Output;
 }
 
 function PumpOn(){
 	$Command = 304;
 	$Output=shell_exec("python3 ./SerialControl.py ".$Command);
+	echo $Output;
 }
 
 function PumpOff(){
 	$Command = 305;
 	$Output=shell_exec("python3 ./SerialControl.py ".$Command);
+	echo $Output;
 }
 
 switch($Command){
