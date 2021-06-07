@@ -18,14 +18,7 @@ if($Settings){
 	}
 }
 
-switch($Command){
-	case "PumpEn":
-		PumpEnable($Pin, $con, $MultiplePumps);
-		PumpOn();
-		sleep(5);
-		PumpOff();
-		break;
-}
+
 
 function PumpEnable($PinNum, $con, $pumps){
 	$OnQuery = mysqli_query($con, "UPDATE Devices SET Status=1 WHERE Pin=".$PinNum);
@@ -36,17 +29,25 @@ function PumpEnable($PinNum, $con, $pumps){
 
 	$Command = $PinNum+300;
 	shell_exec("python3 ./SerialControl.py ".$Command);
-
 }
 
 function PumpOn(){
 	$Command = 304;
-	shell_exec("python3 ./SerialControl.py ".$Command);
+	$Output=shell_exec("python3 ./SerialControl.py ".$Command);
 }
 
 function PumpOff(){
 	$Command = 305;
-	shell_exec("python3 ./SerialControl.py ".$Command);
+	$Output=shell_exec("python3 ./SerialControl.py ".$Command);
+}
+
+switch($Command){
+	case "PumpEn":
+		PumpEnable($Pin, $con, $MultiplePumps);
+		PumpOn();
+		sleep(5);
+		PumpOff();
+		break;
 }
 
 $con->close();

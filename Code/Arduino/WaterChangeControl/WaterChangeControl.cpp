@@ -46,7 +46,7 @@ void setup() {
 }*/
 
 int ActivatePump(){
-  if((PINH4 && ActivePump == 1) || (PINH5 && ActivePump == 2)){
+  if((!PINH4 && ActivePump == 1) || (!PINH5 && ActivePump == 2)){
 
     error = 1;
     return 1;
