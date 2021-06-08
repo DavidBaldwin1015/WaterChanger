@@ -11,6 +11,31 @@ int command = 0;
 int ActivePump = 1;
 int error = 0;
 
+//Variables for FlowMeters
+volatile uint16_t pulse=0;
+volatile uint8_t lastState;
+volatile uint32_t lastTimer=0;
+volatile float flowrate;
+
+SIGNAL(TIMER0_COMPA_vect){
+  uint8_t x = digitalRead(13);
+  
+  if (x == lastflowpinstate) {
+    lastflowratetimer++;
+    return; // nothing changed!
+  }
+  
+  if (x == HIGH) {
+    //low to high transition!
+    pulses++;
+  }
+  lastflowpinstate = x;
+  flowrate = 1000.0;
+  flowrate /= lastflowratetimer;  // in hertz
+  lastflowratetimer = 0;
+}
+
+
 void setup() {
   Serial.begin(9600);
 
@@ -79,6 +104,20 @@ void CloseMains(){
   PORTG &= ~_BV(5);
   PORTE &= ~_BV(3);
   PORTH &= ~_BV(3);
+}
+
+void readFlowMeter(){
+
+
+}
+
+void startInterrupt(boolean s){
+  if(s){
+    OCR0A = 0xAF;
+    TIMSK0 |= _BV(OCIE0A);
+  } else {
+    TIMSK0 &= ~_BV(OCIE0A);
+  }
 }
 
 void loop() {
@@ -481,40 +520,390 @@ void loop() {
             break;
           }
         case 19:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTD |= _BV(2);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 20:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTD |= _BV(1);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 21:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTD |= _BV(0);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 22:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTA |= _BV(0);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 23:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTA |= _BV(1);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 24:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTA |= _BV(2);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 25:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTA |= _BV(3);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 26:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTA |= _BV(4);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 27:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTA |= _BV(5);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 28:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTA |= _BV(6);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 29:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTA |= _BV(7);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 30:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTC |= _BV(7);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 31:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTC |= _BV(6);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 32:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTC |= _BV(5);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 33:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTC |= _BV(4);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 34:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTC |= _BV(3);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 35:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTC |= _BV(2);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 36:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTC |= _BV(1);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 37:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTC |= _BV(0);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 38:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTD |= _BV(7);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 39:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTG |= _BV(2);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 40:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTG |= _BV(1);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 41:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTG |= _BV(0);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 42:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTL |= _BV(7);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 43:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTL |= _BV(6);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 44:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTL |= _BV(5);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 45:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTL |= _BV(4);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 46:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTL |= _BV(3);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 47:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTL |= _BV(2);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 48:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTL |= _BV(1);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 49:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTL |= _BV(0);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 50:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTB |= _BV(3);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 51:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTB |= _BV(2);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 52:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTB |= _BV(1);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 53:
+          int errorCheck = ActivatePump();
+          if(errorCheck == 0){
+            OpenMains();
+            PORTB |= _BV(0);
+            command = 0;
+            break;
+          } else {
+            command = 0;
+            break;
+          }
         case 54:
           PORTD &= ~_BV(3);
           CloseMains();
@@ -532,6 +921,8 @@ void loop() {
 
       //5xx commands read digital inputs
       switch(SubCommand){
+        case 507:
+          
 
       }
     }
